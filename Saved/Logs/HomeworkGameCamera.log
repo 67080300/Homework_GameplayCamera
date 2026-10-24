@@ -950,3 +950,972 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.10.24-03.26.54:163][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultTextMaterialOpaque is adding a dynamic import to package /Engine/EngineMaterials/WorldGridMaterial because of a recursive sync load
 [2026.10.24-03.26.54:164][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/WorldGridMaterial (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
 [2026.10.24-03.26.54:320][  0]LogMaterial: Display: Missing cached shadermap for WorldGridMaterial in PCD3D_SM6, Default, SM6, Editor (DDC key hash: 2c03f54a6723a66a42694b65c624ba1b93042188), compiling. Is special engine material.
+[2026.10.24-03.32.34:444][  0]LogMeshReduction: Display: Using QuadricMeshReduction for automatic static mesh reduction
+[2026.10.24-03.32.34:444][  0]LogMeshReduction: Display: Using SkeletalMeshReduction for automatic skeletal mesh reduction
+[2026.10.24-03.32.34:444][  0]LogMeshReduction: Display: Using ProxyLODMeshReduction for automatic mesh merging
+[2026.10.24-03.32.34:444][  0]LogMeshReduction: Display: No distributed automatic mesh merging module available
+[2026.10.24-03.32.34:444][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2026.10.24-03.32.35:212][  0]LogConfig: Applying CVar settings from Section [/Script/CQTest.CQTestSettings] File [Engine]
+[2026.10.24-03.32.35:284][  0]LogShaderCompilers: Display: Compiling shader autogen file: ../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Intermediate/ShaderAutogen/PCD3D_SM5/AutogenShaderHeaders.ush
+[2026.10.24-03.32.35:285][  0]LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+[2026.10.24-03.32.35:285][  0]LogVirtualization: Display: VirtualizationSystem name found in ini file: None
+[2026.10.24-03.32.35:285][  0]LogVirtualization: Display: FNullVirtualizationSystem mounted, virtualization will be disabled
+[2026.10.24-03.32.35:294][  0]LogLiveCoding: Display: Starting LiveCoding
+[2026.10.24-03.32.35:294][  0]LogLiveCoding: Display: LiveCodingConsole Arguments: UnrealEditor Win64 Development
+[2026.10.24-03.32.35:298][  0]LogLiveCoding: Display: Detected running instance in process group "UE_HomeworkGameCamera_0xb513bfc3", connecting to console process (PID: 3808)
+[2026.10.24-03.32.35:298][  0]LogLiveCoding: Display: Waiting for server
+[2026.10.24-03.32.35:299][  0]LogLiveCoding: Display: Successfully initialized, removing startup thread
+[2026.10.24-03.32.35:333][  0]LogSlate: Border
+[2026.10.24-03.32.35:333][  0]LogSlate: BreadcrumbButton
+[2026.10.24-03.32.35:333][  0]LogSlate: Brushes.Title
+[2026.10.24-03.32.35:333][  0]LogSlate: ColorPicker.ColorThemes
+[2026.10.24-03.32.35:333][  0]LogSlate: Default
+[2026.10.24-03.32.35:333][  0]LogSlate: Icons.Save
+[2026.10.24-03.32.35:333][  0]LogSlate: Icons.Toolbar.Settings
+[2026.10.24-03.32.35:333][  0]LogSlate: ListView
+[2026.10.24-03.32.35:333][  0]LogSlate: SoftwareCursor_CardinalCross
+[2026.10.24-03.32.35:333][  0]LogSlate: SoftwareCursor_Grab
+[2026.10.24-03.32.35:333][  0]LogSlate: TableView.DarkRow
+[2026.10.24-03.32.35:333][  0]LogSlate: TableView.Row
+[2026.10.24-03.32.35:333][  0]LogSlate: TreeView
+[2026.10.24-03.32.35:448][  0]LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize started...
+[2026.10.24-03.32.35:452][  0]LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize took 3.688 ms
+[2026.10.24-03.32.35:479][  0]LogInit: XR: Instanced Stereo Rendering is Disabled
+[2026.10.24-03.32.35:479][  0]LogInit: XR: MultiViewport is Disabled
+[2026.10.24-03.32.35:479][  0]LogInit: XR: Mobile Multiview is Disabled
+[2026.10.24-03.32.35:512][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.001 s
+[2026.10.24-03.32.35:531][  0]LogNiagaraDebuggerClient: Niagara Debugger Client Initialized | Session: 101EEE0A3F1B49F58000000000009900 | Instance: E05188B34F1520EE7AAA7E890B9AF93A (L1160230-17012).
+[2026.10.24-03.32.35:766][  0]LogNNERuntimeORT: No NPU adapter found with attributes (!GRAPHICS && (GENERIC_ML || CORE_COMPUTE)) (Windows 11 Version 24H2 or newer)!
+[2026.10.24-03.32.35:766][  0]LogNNERuntimeORT: Available graphics and compute adapters:
+[2026.10.24-03.32.35:766][  0]LogNNERuntimeORT: 0: NVIDIA GeForce RTX 3060 (Compute, Graphics)
+[2026.10.24-03.32.35:766][  0]LogNNERuntimeORT: 1: Microsoft Basic Render Driver (Compute, Graphics)
+[2026.10.24-03.32.35:766][  0]LogNNERuntimeORT: No NPU adapter found!
+[2026.10.24-03.32.35:766][  0]LogNNERuntimeORT: MakeRuntimeORTDml:
+[2026.10.24-03.32.35:766][  0]LogNNERuntimeORT:   DirectML:  yes
+[2026.10.24-03.32.35:766][  0]LogNNERuntimeORT:   RHI D3D12: yes
+[2026.10.24-03.32.35:766][  0]LogNNERuntimeORT:   D3D12:     yes
+[2026.10.24-03.32.35:766][  0]LogNNERuntimeORT:   NPU:       no
+[2026.10.24-03.32.35:766][  0]LogNNERuntimeORT: Interface availability:
+[2026.10.24-03.32.35:766][  0]LogNNERuntimeORT:   GPU: yes
+[2026.10.24-03.32.35:766][  0]LogNNERuntimeORT:   RDG: yes
+[2026.10.24-03.32.35:766][  0]LogNNERuntimeORT:   NPU: no
+[2026.10.24-03.32.35:767][  0]LogNNERuntimeORT: No NPU adapter found with attributes (!GRAPHICS && (GENERIC_ML || CORE_COMPUTE)) (Windows 11 Version 24H2 or newer)!
+[2026.10.24-03.32.35:767][  0]LogNNERuntimeORT: Available graphics and compute adapters:
+[2026.10.24-03.32.35:767][  0]LogNNERuntimeORT: 0: NVIDIA GeForce RTX 3060 (Compute, Graphics)
+[2026.10.24-03.32.35:767][  0]LogNNERuntimeORT: 1: Microsoft Basic Render Driver (Compute, Graphics)
+[2026.10.24-03.32.35:767][  0]LogNNERuntimeORT: No NPU adapter found!
+[2026.10.24-03.32.36:220][  0]LogUdpMessaging: Display: Work queue size set to 1024.
+[2026.10.24-03.32.36:220][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2026.10.24-03.32.36:221][  0]LogUdpMessaging: Display: Unicast socket bound to '0.0.0.0:55850'.
+[2026.10.24-03.32.36:224][  0]LogUdpMessaging: Display: Added local interface '10.11.61.114' to multicast group '230.0.0.1:6666'
+[2026.10.24-03.32.36:224][  0]LogUdpMessaging: Display: Added local interface '127.0.0.1' to multicast group '230.0.0.1:6666'
+[2026.10.24-03.32.36:230][  0]LogUdpMessaging: Display: Using asynchronous task graph for message deserialization.
+[2026.10.24-03.32.36:236][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2026.10.24-03.32.36:384][  0]LogMetaSound: Display: MetaSound Page Target Initialized to 'Default'
+[2026.10.24-03.32.36:385][  0]LogAudio: Display: Registering Engine Module Parameter Interfaces...
+[2026.10.24-03.32.36:391][  0]LogMetaSound: MetaSound Engine Initialized
+[2026.10.24-03.32.36:512][  0]LogChaosVDEditor: [FChaosVDExtensionsManager::RegisterExtension] Registering CVD Extension [FChaosVDGenericDebugDrawExtension] ...
+[2026.10.24-03.32.36:512][  0]LogChaosVDEditor: [FChaosVDExtensionsManager::RegisterExtension] Registering CVD Extension [FChaosVDAccelerationStructuresExtension] ...
+[2026.10.24-03.32.36:520][  0]LogTimingProfiler: Initialize
+[2026.10.24-03.32.36:520][  0]LogTimingProfiler: OnSessionChanged
+[2026.10.24-03.32.36:520][  0]LoadingProfiler: Initialize
+[2026.10.24-03.32.36:520][  0]LoadingProfiler: OnSessionChanged
+[2026.10.24-03.32.36:520][  0]LogNetworkingProfiler: Initialize
+[2026.10.24-03.32.36:521][  0]LogNetworkingProfiler: OnSessionChanged
+[2026.10.24-03.32.36:521][  0]LogMemoryProfiler: Initialize
+[2026.10.24-03.32.36:521][  0]LogMemoryProfiler: OnSessionChanged
+[2026.10.24-03.32.36:556][  0]SourceControl: Revision control is disabled
+[2026.10.24-03.32.36:569][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Common/ButtonHoverHint.png' error.
+[2026.10.24-03.32.36:570][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/./Editor/Slate/Icons/doc_16x.png' error.
+[2026.10.24-03.32.36:570][  0]LogSlate: Could not load file for Slate resource: [../../../Engine/Content/Slate/Common/ButtonHoverHint.png] file: [../../../Engine/Content/Slate/Common/ButtonHoverHint.png]
+[2026.10.24-03.32.36:570][  0]LogSlate: Could not load file for Slate resource: [../../../Engine/Content/Slate/./Editor/Slate/Icons/doc_16x.png] file: [../../../Engine/Content/Slate/./Editor/Slate/Icons/doc_16x.png]
+[2026.10.24-03.32.36:575][  0]SourceControl: Revision control is disabled
+[2026.10.24-03.32.36:682][  0]LogConfig: Applying CVar settings from Section [/Script/NNEDenoiser.NNEDenoiserSettings] File [Engine]
+[2026.10.24-03.32.36:708][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Animation/EaseCurveTool/Resources/Common/ButtonHoverHint.png' error.
+[2026.10.24-03.32.36:708][  0]LogSlate: Could not load file for Slate resource: [../../../Engine/Plugins/Animation/EaseCurveTool/Resources/Common/ButtonHoverHint.png] file: [../../../Engine/Plugins/Animation/EaseCurveTool/Resources/Common/ButtonHoverHint.png]
+[2026.10.24-03.32.37:038][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2026.10.24-03.32.37:048][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2026.10.24-03.32.37:048][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2026.10.24-03.32.37:125][  0]LogCollectionManager: Loaded 0 collections in 0.002687 seconds
+[2026.10.24-03.32.37:129][  0]LogFileCache: Scanning file cache for directory 'C:/Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/Collections/' took 0.00s
+[2026.10.24-03.32.37:132][  0]LogFileCache: Scanning file cache for directory 'C:/Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/Developers/r111101/Collections/' took 0.00s
+[2026.10.24-03.32.37:137][  0]LogFileCache: Scanning file cache for directory 'C:/Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/Collections/' took 0.00s
+[2026.10.24-03.32.37:224][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_24x.png' error.
+[2026.10.24-03.32.37:224][  0]LogSlate: Could not load file for Slate resource: [../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_24x.png] file: [../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_24x.png]
+[2026.10.24-03.32.37:224][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_128x.png' error.
+[2026.10.24-03.32.37:224][  0]LogSlate: Could not load file for Slate resource: [../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_128x.png] file: [../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_128x.png]
+[2026.10.24-03.32.37:250][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Common/ButtonHoverHint.png' error.
+[2026.10.24-03.32.37:250][  0]LogSlate: Could not load file for Slate resource: [../../../Engine/Content/Slate/Common/ButtonHoverHint.png] file: [../../../Engine/Content/Slate/Common/ButtonHoverHint.png]
+[2026.10.24-03.32.37:250][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/./Editor/Slate/Icons/doc_16x.png' error.
+[2026.10.24-03.32.37:250][  0]LogSlate: Could not load file for Slate resource: [../../../Engine/Content/Slate/./Editor/Slate/Icons/doc_16x.png] file: [../../../Engine/Content/Slate/./Editor/Slate/Icons/doc_16x.png]
+[2026.10.24-03.32.37:252][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Animation/EaseCurveTool/Resources/Common/ButtonHoverHint.png' error.
+[2026.10.24-03.32.37:252][  0]LogSlate: Could not load file for Slate resource: [../../../Engine/Plugins/Animation/EaseCurveTool/Resources/Common/ButtonHoverHint.png] file: [../../../Engine/Plugins/Animation/EaseCurveTool/Resources/Common/ButtonHoverHint.png]
+[2026.10.24-03.32.37:278][  0]LogEOSSDK: LogEOS: [Boot] EOSSDK Version 1.19.0.3-49960398 booting at 2026-10-24T03:32:37.278Z using C
+[2026.10.24-03.32.37:279][  0]LogEOSSDK: LogEOS: [Boot] EOSSDK Platform Configuration win64-dynamic-x86_64
+[2026.10.24-03.32.37:279][  0]LogEOSSDK: LogEOS: [Boot] EOSSDK Platform Properties [OS=Windows/10.0.26100.9549.64bit, ClientId=xyza7891REBVsEqSJRRNXmlS7EQHM459, ProductId=86f32f1151354e7cb39c12f8ab2c22a3, SandboxId=a01927f7421a4d4995673fe30ef46945, DeploymentId=a652a72ea1664dcab3a467891eea5f30, ProductName=HomeworkGameCamera, ProductVersion=++UE5+Release-5.7-CL-51494982, IsServer=false, Flags=DisableOverlay]
+[2026.10.24-03.32.37:279][  0]LogEOSSDK: LogEOSAnalytics: Start Session (User: ...)
+[2026.10.24-03.32.37:279][  0]LogEOSSDK: LogEOSOverlay: Overlay will not load, because it was explicitly disabled when creating the platform
+[2026.10.24-03.32.37:286][  0]LogEOSSDK: LogEOSAntiCheat: [AntiCheatClient] Anti-cheat client not available. Verify that the game was started using the anti-cheat bootstrapper if you intend to use it.
+[2026.10.24-03.32.37:286][  0]LogEOSSDK: LogEOS: SetApplicationStatus - OldStatus: EOS_AS_Foreground, NewStatus: EOS_AS_Foreground, Current Time: 0001.01.01-00.00.00
+[2026.10.24-03.32.37:286][  0]LogEOSSDK: LogEOS: SetNetworkStatus - OldStatus: EOS_NS_Online, NewStatus: EOS_NS_Online
+[2026.10.24-03.32.37:286][  0]LogEOSSDK: LogEOS: Updating Platform SDK Config, Time: 0.000110
+[2026.10.24-03.32.37:287][  0]LogFab: Plugin initialized. VersionName: 0.0.15 (Version: 15) - Engine Version 5.7.4-51494982+++UE5+Release-5.7
+[2026.10.24-03.32.37:310][  0]LogStylusInput: WintabAPI: Interface ID: Wintab Digitizer Services
+[2026.10.24-03.32.37:310][  0]LogStylusInput: WintabAPI: Specification Version: 1.4
+[2026.10.24-03.32.37:310][  0]LogStylusInput: WintabAPI: Implementation Version: 1.39
+[2026.10.24-03.32.37:310][  0]LogStylusInput: WintabAPI: Maximum Number of Cursor Types: 6
+[2026.10.24-03.32.37:310][  0]LogStylusInput: WintabAPI: Maximum Number of Contexts: 32
+[2026.10.24-03.32.37:310][  0]LogStylusInput: WintabAPI: Supports System Cursor Contexts: Yes
+[2026.10.24-03.32.37:310][  0]LogStylusInput: WintabAPI: Supports Pen Windows Contexts: No
+[2026.10.24-03.32.37:310][  0]LogStylusInput: WintabAPI: Supports WT_PACKET Messages: Yes
+[2026.10.24-03.32.37:310][  0]LogStylusInput: WintabAPI: Supports WT_CSRCHANGE  Messages: Yes
+[2026.10.24-03.32.37:310][  0]LogStylusInput: WintabAPI: Supports Margins: No
+[2026.10.24-03.32.37:310][  0]LogStylusInput: WintabAPI: Supports Inside Margins: No
+[2026.10.24-03.32.37:310][  0]LogStylusInput: WintabAPI: Number of Devices: 0
+[2026.10.24-03.32.37:406][  0]LogUObjectArray: 43769 objects as part of root set at end of initial load.
+[2026.10.24-03.32.37:406][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2026.10.24-03.32.37:726][  0]LogEngine: Initializing Engine...
+[2026.10.24-03.32.37:998][  0]LogTedsSettings: UTedsSettingsEditorSubsystem::Initialize
+[2026.10.24-03.32.38:668][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.11.dll
+[2026.10.24-03.32.38:966][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.12.dll
+[2026.10.24-03.32.39:208][  0]LogChaosDD: Creating Chaos Debug Draw Scene for world Untitled
+[2026.10.24-03.32.39:230][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2026.10.24-03.32.39:230][  0]LogInit: Texture streaming: Enabled
+[2026.10.24-03.32.39:240][  0]LogAnalytics: Display: [UEEditor.Rocket.Release] AnalyticsET::StartSession ( APIServer = https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data. AppVersion = 5.7.4-51494982+++UE5+Release-5.7 )
+[2026.10.24-03.32.39:245][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2026.10.24-03.32.39:255][  0]LogAudio: Display: Loading Default Audio Settings Objects...
+[2026.10.24-03.32.39:255][  0]LogAudio: Display: No default SoundConcurrencyObject specified (or failed to load).
+[2026.10.24-03.32.39:256][  0]LogAudio: Display: Audio Device Manager Initialized
+[2026.10.24-03.32.39:256][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2026.10.24-03.32.39:256][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.24-03.32.39:256][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.24-03.32.39:256][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.24-03.32.39:256][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.24-03.32.39:256][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.10.24-03.32.39:256][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.24-03.32.39:256][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.10.24-03.32.39:256][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.24-03.32.39:256][  0]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.24-03.32.39:256][  0]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.24-03.32.39:256][  0]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.24-03.32.39:262][  0]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.10.24-03.32.39:287][  0]LogAudioEnumeration: Display: FWindowsMMDeviceCache: Default Render Role='Console', Device='Speakers (2- Realtek(R) Audio)'
+[2026.10.24-03.32.39:289][  0]LogAudioEnumeration: Display: FWindowsMMDeviceCache: Default Capture Role='Console', Device='Headset Microphone (Oculus Virtual Audio Device)'
+[2026.10.24-03.32.39:293][  0]LogAudioEnumeration: Display: FWindowsMMDeviceCache: Default Render Role='Multimedia', Device='Speakers (2- Realtek(R) Audio)'
+[2026.10.24-03.32.39:295][  0]LogAudioEnumeration: Display: FWindowsMMDeviceCache: Default Capture Role='Multimedia', Device='Headset Microphone (Oculus Virtual Audio Device)'
+[2026.10.24-03.32.39:298][  0]LogAudioEnumeration: Display: FWindowsMMDeviceCache: Default Render Role='Communications', Device='Headphones (Oculus Virtual Audio Device)'
+[2026.10.24-03.32.39:300][  0]LogAudioEnumeration: Display: FWindowsMMDeviceCache: Default Capture Role='Communications', Device='Headset Microphone (Oculus Virtual Audio Device)'
+[2026.10.24-03.32.39:332][  0]LogAudioMixer: Display: Using Audio Hardware Device Speakers (2- Realtek(R) Audio)
+[2026.10.24-03.32.39:334][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.24-03.32.39:336][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.24-03.32.39:336][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.24-03.32.39:337][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2026.10.24-03.32.39:337][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2026.10.24-03.32.39:340][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2026.10.24-03.32.39:340][  0]LogInit: FAudioDevice initialized with ID 1.
+[2026.10.24-03.32.39:340][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=1
+[2026.10.24-03.32.39:340][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2026.10.24-03.32.39:340][  0]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 1
+[2026.10.24-03.32.39:352][  0]LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+[2026.10.24-03.32.39:361][  0]LogInit: Undo buffer set to 256 MB
+[2026.10.24-03.32.39:361][  0]LogInit: Transaction tracking system initialized
+[2026.10.24-03.32.39:445][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Engine/VREditor/TransformGizmo/SM_Sequencer_Node) ...
+[2026.10.24-03.32.39:510][  0]LocalizationService: Localization service is disabled
+[2026.10.24-03.32.40:225][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.13.dll
+[2026.10.24-03.32.40:273][  0]LogContentValidation: Adding native validator /Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.24-03.32.40:273][  0]LogContentValidation: Adding native validator /Script/DataValidation.EditorValidator_Localization
+[2026.10.24-03.32.40:273][  0]LogContentValidation: Adding native validator /Script/DataValidation.EditorValidator_Material
+[2026.10.24-03.32.40:273][  0]LogContentValidation: Adding native validator /Script/DataValidation.PackageFileValidator
+[2026.10.24-03.32.40:273][  0]LogContentValidation: Adding native validator /Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.24-03.32.40:273][  0]LogContentValidation: Adding native validator /Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.24-03.32.40:290][  0]LogFileCache: Scanning file cache for directory 'C:/Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/' took 0.02s
+[2026.10.24-03.32.40:324][  0]LogPython: Python enabled via CVar 'Engine.Python.IsEnabledByDefault'
+[2026.10.24-03.32.40:324][  0]LogPython: Using Python 3.11.8
+[2026.10.24-03.32.40:368][  0]LogPython: Display: No pip-enabled plugins with python dependencies found, skipping
+[2026.10.24-03.32.40:742][  0]LogRenderer: Requested compilation of Path Tracing RTPSOs (4 permutations).
+[2026.10.24-03.32.40:867][  0]LogLevelSequenceEditor: LevelSequenceEditor subsystem initialized.
+[2026.10.24-03.32.40:893][  0]LogEditorDataStorage: Initializing
+[2026.10.24-03.32.40:916][  0]LogEditorDataStorage: Initialized
+[2026.10.24-03.32.40:923][  0]LogCore: Display: InsightsEditor module auto-connecting to local trace server...
+[2026.10.24-03.32.41:072][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2026.10.24-03.32.41:082][  0]SourceControl: Revision control is disabled
+[2026.10.24-03.32.41:082][  0]LogUnrealEdMisc: Loading editor; pre map load, took 1336.530
+[2026.10.24-03.32.41:083][  0]Cmd: MAP LOAD FILE="../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/ThirdPerson/Lvl_ThirdPerson.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2026.10.24-03.32.41:087][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2026.10.24-03.32.41:087][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.24-03.32.41:118][  0]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.10.24-03.32.41:122][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2026.10.24-03.32.42:281][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Lvl_ThirdPerson'.
+[2026.10.24-03.32.42:281][  0]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_ThirdPerson
+[2026.10.24-03.32.42:284][  0]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_ThirdPerson)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2026.10.24-03.32.42:284][  0]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.10.24-03.32.42:284][  0]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.10.24-03.32.42:906][  0]LogWorldPartition: Display: WorldPartition initialize took 622.170 ms
+[2026.10.24-03.32.42:936][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2026.10.24-03.32.42:973][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2026.10.24-03.32.42:974][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2026.10.24-03.32.42:975][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1.023ms to complete.
+[2026.10.24-03.32.43:004][  0]LogUnrealEdMisc: Total Editor Startup Time, took 1338.452
+[2026.10.24-03.32.43:007][  0]LogShaderCompilers: Display: ================================================
+[2026.10.24-03.32.43:007][  0]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.10.24-03.32.43:007][  0]LogShaderCompilers: Display: Total job queries 21,344, among them cache hits 4,740 (22.21%), DDC hits 11,136 (52.17%), Duplicates 1,469 (6.88%)
+[2026.10.24-03.32.43:007][  0]LogShaderCompilers: Display: Tracking 15,135 distinct input hashes that result in 14,158 distinct outputs (93.54%)
+[2026.10.24-03.32.43:007][  0]LogShaderCompilers: Display: RAM used: 224.06 MiB of 1.60 GiB budget. Usage: 13.68%
+[2026.10.24-03.32.43:007][  0]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.10.24-03.32.43:007][  0]LogShaderCompilers: Display: Shaders Compiled: 3,999
+[2026.10.24-03.32.43:007][  0]LogShaderCompilers: Display: Jobs assigned 3,999, completed 3,999 (100%)
+[2026.10.24-03.32.43:007][  0]LogShaderCompilers: Display: Average time worker was idle: 0.44 s
+[2026.10.24-03.32.43:007][  0]LogShaderCompilers: Display: Time job spent in pending queue: average 546.67 s, longest 924.69 s
+[2026.10.24-03.32.43:007][  0]LogShaderCompilers: Display: Job execution time: average 21.90 s, max 263.27 s
+[2026.10.24-03.32.43:007][  0]LogShaderCompilers: Display: Job life time (pending + execution): average 568.57 s, max 946.03
+[2026.10.24-03.32.43:007][  0]LogShaderCompilers: Display: Shader code size: total 130.095 MiB, numShaders 3,999, average 33.312 KiB, min 1.646 KiB, max 180.531 KiB
+[2026.10.24-03.32.43:007][  0]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 1298.94 s
+[2026.10.24-03.32.43:007][  0]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.20%
+[2026.10.24-03.32.43:007][  0]LogShaderCompilers: Display: Jobs were issued in 439 batches (only local compilation was used), average 9.11 jobs/batch
+[2026.10.24-03.32.43:007][  0]LogShaderCompilers: Display: Average processing rate: 3.08 jobs/sec
+[2026.10.24-03.32.43:007][  0]LogShaderCompilers: Display: Total thread time: 8,377.488 s
+[2026.10.24-03.32.43:007][  0]LogShaderCompilers: Display: Total thread preprocess time: 350.672 s
+[2026.10.24-03.32.43:007][  0]LogShaderCompilers: Display: Percentage time preprocessing: 4.19%
+[2026.10.24-03.32.43:007][  0]LogShaderCompilers: Display: Effective parallelization: 6.45 (times faster than compiling all shaders on one thread). Compare with number of workers: 8 - 0.806183
+[2026.10.24-03.32.43:007][  0]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2026.10.24-03.32.43:007][  0]LogShaderCompilers: Display:                                      FGenerateLightSamplesCS (compiled  406 times, average 6.66 sec, max 21.09 sec, min 0.99 sec)
+[2026.10.24-03.32.43:007][  0]LogShaderCompilers: Display:                     FLumenRadianceCacheHardwareRayTracingRGS (compiled    8 times, average 5.20 sec, max 13.15 sec, min 1.28 sec)
+[2026.10.24-03.32.43:007][  0]LogShaderCompilers: Display:                                        FMicropolyRasterizeCS (compiled  283 times, average 4.08 sec, max 25.95 sec, min 0.46 sec)
+[2026.10.24-03.32.43:007][  0]LogShaderCompilers: Display:                  FRayTracedTranslucencyHardwareRayTracingRGS (compiled    4 times, average 3.97 sec, max 4.39 sec, min 3.32 sec)
+[2026.10.24-03.32.43:007][  0]LogShaderCompilers: Display:                        FLumenReflectionHardwareRayTracingRGS (compiled  155 times, average 3.77 sec, max 18.81 sec, min 0.69 sec)
+[2026.10.24-03.32.43:007][  0]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2026.10.24-03.32.43:008][  0]LogShaderCompilers: Display:                                      FGenerateLightSamplesCS - 32.25% of total time (compiled  406 times, average 6.66 sec, max 21.09 sec, min 0.99 sec)
+[2026.10.24-03.32.43:008][  0]LogShaderCompilers: Display:                                        FMicropolyRasterizeCS - 13.78% of total time (compiled  283 times, average 4.08 sec, max 25.95 sec, min 0.46 sec)
+[2026.10.24-03.32.43:008][  0]LogShaderCompilers: Display:                                         FShadeLightSamplesCS - 11.15% of total time (compiled  504 times, average 1.85 sec, max 4.13 sec, min 0.40 sec)
+[2026.10.24-03.32.43:008][  0]LogShaderCompilers: Display:                          FReflectionEnvironmentSkyLightingPS - 8.01% of total time (compiled  480 times, average 1.40 sec, max 15.00 sec, min 0.19 sec)
+[2026.10.24-03.32.43:008][  0]LogShaderCompilers: Display:                         FLumenReflectionHardwareRayTracingCS - 7.26% of total time (compiled  304 times, average 2.00 sec, max 17.88 sec, min 0.38 sec)
+[2026.10.24-03.32.43:008][  0]LogShaderCompilers: Display: === Material stats ===
+[2026.10.24-03.32.43:008][  0]LogShaderCompilers: Display: Materials Cooked:        0
+[2026.10.24-03.32.43:008][  0]LogShaderCompilers: Display: Materials Translated:    144
+[2026.10.24-03.32.43:008][  0]LogShaderCompilers: Display: Material Total Translate Time: 0.16 s
+[2026.10.24-03.32.43:008][  0]LogShaderCompilers: Display: Material Translation Only: 0.07 s (44%)
+[2026.10.24-03.32.43:008][  0]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2026.10.24-03.32.43:008][  0]LogShaderCompilers: Display: Material Cache Hits: 16 (11%)
+[2026.10.24-03.32.43:008][  0]LogShaderCompilers: Display: ================================================
+[2026.10.24-03.32.43:073][  0]LogCEF3Utils: Warning: Failed to backup cef3.log
+[2026.10.24-03.32.43:104][  0]LogWebBrowser: Loaded CEF3 version 128.4.13.3057 from C:/Program Files/Epic Games/UE_5.7/Engine/Binaries/ThirdParty/CEF3/Win64/128.4.13+ge76af7e+chromium-128.0.6613.138
+[2026.10.24-03.32.43:106][  0]LogCEFBrowser: CEF GPU acceleration enabled
+[2026.10.24-03.32.43:326][  0]LogDesktopPlatform: Enumerating Projects From Engine Ver: 5.7
+[2026.10.24-03.32.43:326][  0]LogDesktopPlatform: Looking for directories to scan from : C:/Users/r11-1101/AppData/Local/UnrealEngine/5.7/Saved/Config/WindowsEditor
+[2026.10.24-03.32.43:326][  0]LogDesktopPlatform: Searching for previously created project directories...
+[2026.10.24-03.32.43:326][  0]LogDesktopPlatform: Found directory: "D:/67080300"
+[2026.10.24-03.32.43:326][  0]LogDesktopPlatform: Found project "(ProjectName="C:/Users/r11-1101/Downloads/MyProject2/MyProject2/MyProject2.uproject",LastOpenTime=2026.09.05-05.23.29)" in recently opened files
+[2026.10.24-03.32.43:326][  0]LogDesktopPlatform: Found project "(ProjectName="C:/Users/r11-1101/AppData/Local/Temp/a8d9b4ec-70b4-49a0-91c7-69a4825e0081_W1.zip.081/W1.uproject",LastOpenTime=2026.09.19-02.16.59)" in recently opened files
+[2026.10.24-03.32.43:327][  0]LogDesktopPlatform: Found project "(ProjectName="D:/67080300/W1/W1.uproject",LastOpenTime=2026.09.19-06.03.09)" in recently opened files
+[2026.10.24-03.32.43:327][  0]LogDesktopPlatform: Found project "(ProjectName="D:/67080300/Homework_GameplayCamera-main/HomeworkGameCamera.uproject",LastOpenTime=2026.10.24-02.23.24)" in recently opened files
+[2026.10.24-03.32.43:327][  0]LogDesktopPlatform: Found project "(ProjectName="C:/Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/HomeworkGameCamera.uproject",LastOpenTime=2026.10.24-03.32.39)" in recently opened files
+[2026.10.24-03.32.43:327][  0]LogDesktopPlatform: Found project "D:/67080300/Homework_GameplayCamera-main/HomeworkGameCamera.uproject" in previously created project directory
+[2026.10.24-03.32.43:327][  0]LogDesktopPlatform: Found project "D:/67080300/W1/W3.uproject" in previously created project directory
+[2026.10.24-03.32.43:327][  0]LogDesktopPlatform: Searching for projects in .uprojectdirs
+[2026.10.24-03.32.43:329][  0]LogProjectBrowser: Looking for projects...
+[2026.10.24-03.32.43:329][  0]LogProjectBrowser: Found Engine Installation "5.7"(C:/Program Files/Epic Games/UE_5.7)
+[2026.10.24-03.32.43:329][  0]LogDesktopPlatform: Enumerating Projects From Engine Ver: 5.7
+[2026.10.24-03.32.43:329][  0]LogDesktopPlatform: Looking for directories to scan from : C:/Users/r11-1101/AppData/Local/UnrealEngine/5.7/Saved/Config/WindowsEditor
+[2026.10.24-03.32.43:329][  0]LogDesktopPlatform: Searching for previously created project directories...
+[2026.10.24-03.32.43:329][  0]LogDesktopPlatform: Found directory: "D:/67080300"
+[2026.10.24-03.32.43:329][  0]LogDesktopPlatform: Found project "(ProjectName="C:/Users/r11-1101/Downloads/MyProject2/MyProject2/MyProject2.uproject",LastOpenTime=2026.09.05-05.23.29)" in recently opened files
+[2026.10.24-03.32.43:329][  0]LogDesktopPlatform: Found project "(ProjectName="C:/Users/r11-1101/AppData/Local/Temp/a8d9b4ec-70b4-49a0-91c7-69a4825e0081_W1.zip.081/W1.uproject",LastOpenTime=2026.09.19-02.16.59)" in recently opened files
+[2026.10.24-03.32.43:329][  0]LogDesktopPlatform: Found project "(ProjectName="D:/67080300/W1/W1.uproject",LastOpenTime=2026.09.19-06.03.09)" in recently opened files
+[2026.10.24-03.32.43:329][  0]LogDesktopPlatform: Found project "(ProjectName="D:/67080300/Homework_GameplayCamera-main/HomeworkGameCamera.uproject",LastOpenTime=2026.10.24-02.23.24)" in recently opened files
+[2026.10.24-03.32.43:329][  0]LogDesktopPlatform: Found project "(ProjectName="C:/Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/HomeworkGameCamera.uproject",LastOpenTime=2026.10.24-03.32.39)" in recently opened files
+[2026.10.24-03.32.43:330][  0]LogDesktopPlatform: Found project "D:/67080300/Homework_GameplayCamera-main/HomeworkGameCamera.uproject" in previously created project directory
+[2026.10.24-03.32.43:330][  0]LogDesktopPlatform: Found project "D:/67080300/W1/W3.uproject" in previously created project directory
+[2026.10.24-03.32.43:330][  0]LogDesktopPlatform: Searching for projects in .uprojectdirs
+[2026.10.24-03.32.43:330][  0]LogProjectBrowser: Enumerating Launcher Sample Projects...
+[2026.10.24-03.32.43:337][  0]LogPlacementMode: Display: The Asset Registry is not yet fully loaded so some placeable classes might be missing.
+[2026.10.24-03.32.43:477][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.24-03.32.43:584][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.24-03.32.43:677][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.24-03.32.43:775][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.24-03.32.43:889][  0]LogPakFile: Initializing PakPlatformFile
+[2026.10.24-03.32.43:889][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.7/FeaturePacks/TP_FirstPerson.upack', mount point: 'root:/'
+[2026.10.24-03.32.43:889][  0]LogPakFile: Initializing PakPlatformFile
+[2026.10.24-03.32.43:890][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.7/FeaturePacks/TP_FirstPersonBP.upack', mount point: 'root:/'
+[2026.10.24-03.32.43:890][  0]LogPakFile: Initializing PakPlatformFile
+[2026.10.24-03.32.43:890][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.7/FeaturePacks/TP_HandheldARBP.upack', mount point: 'root:/'
+[2026.10.24-03.32.43:890][  0]LogPakFile: Initializing PakPlatformFile
+[2026.10.24-03.32.43:891][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.7/FeaturePacks/TP_ThirdPerson.upack', mount point: 'root:/'
+[2026.10.24-03.32.43:891][  0]LogPakFile: Initializing PakPlatformFile
+[2026.10.24-03.32.43:891][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.7/FeaturePacks/TP_ThirdPersonBP.upack', mount point: 'root:/'
+[2026.10.24-03.32.43:891][  0]LogPakFile: Initializing PakPlatformFile
+[2026.10.24-03.32.43:891][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.7/FeaturePacks/TP_TopDown.upack', mount point: 'root:/'
+[2026.10.24-03.32.43:891][  0]LogPakFile: Initializing PakPlatformFile
+[2026.10.24-03.32.43:892][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.7/FeaturePacks/TP_TopDownBP.upack', mount point: 'root:/'
+[2026.10.24-03.32.43:892][  0]LogPakFile: Initializing PakPlatformFile
+[2026.10.24-03.32.43:892][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.7/FeaturePacks/TP_VehicleAdvBP.upack', mount point: 'root:/'
+[2026.10.24-03.32.43:892][  0]LogPakFile: Initializing PakPlatformFile
+[2026.10.24-03.32.43:892][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.7/FeaturePacks/TP_VirtualRealityBP.upack', mount point: 'root:/'
+[2026.10.24-03.32.44:268][  0]LogToolMenus: Warning: Menu section not found: 'Compile' for insert: 'EditorPerf'
+[2026.10.24-03.32.44:323][  0]LogSlate: Took 0.000181 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2026.10.24-03.32.44:327][  0]LogSlate: Took 0.000127 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2026.10.24-03.32.44:392][  0]LogSlate: Took 0.000537 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2026.10.24-03.32.44:458][  0]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.10.24-03.32.44:888][  0]LogPSOHitching: Encountered 50 PSO creation hitches so far (12 graphics, 38 compute). 0 of them were precached.
+[2026.10.24-03.32.45:344][  0]LogPSOHitching: Encountered 100 PSO creation hitches so far (16 graphics, 84 compute). 0 of them were precached.
+[2026.10.24-03.32.46:018][  0]LogStall: Startup...
+[2026.10.24-03.32.46:022][  0]LogStall: Startup complete.
+[2026.10.24-03.32.46:025][  0]LogLoad: (Engine Initialization) Total time: 1341.47 seconds
+[2026.10.24-03.32.46:335][  0]LogHttp: Warning: HTTP request timed out after 3.00 seconds URL=https://www.google.com/generate_204
+[2026.10.24-03.32.46:404][  0]LogShaderCompilers: Display: ================================================
+[2026.10.24-03.32.46:404][  0]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.10.24-03.32.46:404][  0]LogShaderCompilers: Display: Total job queries 21,459, among them cache hits 4,742 (22.10%), DDC hits 11,244 (52.40%), Duplicates 1,474 (6.87%)
+[2026.10.24-03.32.46:404][  0]LogShaderCompilers: Display: Tracking 15,243 distinct input hashes that result in 14,260 distinct outputs (93.55%)
+[2026.10.24-03.32.46:404][  0]LogShaderCompilers: Display: RAM used: 226.13 MiB of 1.60 GiB budget. Usage: 13.80%
+[2026.10.24-03.32.46:404][  0]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.10.24-03.32.46:404][  0]LogShaderCompilers: Display: Shaders Compiled: 3,999
+[2026.10.24-03.32.46:404][  0]LogShaderCompilers: Display: Jobs assigned 3,999, completed 3,999 (100%)
+[2026.10.24-03.32.46:404][  0]LogShaderCompilers: Display: Average time worker was idle: 0.44 s
+[2026.10.24-03.32.46:404][  0]LogShaderCompilers: Display: Time job spent in pending queue: average 546.67 s, longest 924.69 s
+[2026.10.24-03.32.46:404][  0]LogShaderCompilers: Display: Job execution time: average 21.90 s, max 263.27 s
+[2026.10.24-03.32.46:404][  0]LogShaderCompilers: Display: Job life time (pending + execution): average 568.57 s, max 946.03
+[2026.10.24-03.32.46:404][  0]LogShaderCompilers: Display: Shader code size: total 130.095 MiB, numShaders 3,999, average 33.312 KiB, min 1.646 KiB, max 180.531 KiB
+[2026.10.24-03.32.46:404][  0]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 1298.94 s
+[2026.10.24-03.32.46:404][  0]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.20%
+[2026.10.24-03.32.46:405][  0]LogShaderCompilers: Display: Jobs were issued in 439 batches (only local compilation was used), average 9.11 jobs/batch
+[2026.10.24-03.32.46:405][  0]LogShaderCompilers: Display: Average processing rate: 3.08 jobs/sec
+[2026.10.24-03.32.46:405][  0]LogShaderCompilers: Display: Total thread time: 8,377.488 s
+[2026.10.24-03.32.46:405][  0]LogShaderCompilers: Display: Total thread preprocess time: 353.268 s
+[2026.10.24-03.32.46:405][  0]LogShaderCompilers: Display: Percentage time preprocessing: 4.22%
+[2026.10.24-03.32.46:405][  0]LogShaderCompilers: Display: Effective parallelization: 6.45 (times faster than compiling all shaders on one thread). Compare with number of workers: 8 - 0.806183
+[2026.10.24-03.32.46:405][  0]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2026.10.24-03.32.46:405][  0]LogShaderCompilers: Display:                                      FGenerateLightSamplesCS (compiled  406 times, average 6.66 sec, max 21.09 sec, min 0.99 sec)
+[2026.10.24-03.32.46:405][  0]LogShaderCompilers: Display:                     FLumenRadianceCacheHardwareRayTracingRGS (compiled    8 times, average 5.20 sec, max 13.15 sec, min 1.28 sec)
+[2026.10.24-03.32.46:405][  0]LogShaderCompilers: Display:                                        FMicropolyRasterizeCS (compiled  283 times, average 4.08 sec, max 25.95 sec, min 0.46 sec)
+[2026.10.24-03.32.46:405][  0]LogShaderCompilers: Display:                  FRayTracedTranslucencyHardwareRayTracingRGS (compiled    4 times, average 3.97 sec, max 4.39 sec, min 3.32 sec)
+[2026.10.24-03.32.46:405][  0]LogShaderCompilers: Display:                        FLumenReflectionHardwareRayTracingRGS (compiled  155 times, average 3.77 sec, max 18.81 sec, min 0.69 sec)
+[2026.10.24-03.32.46:405][  0]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2026.10.24-03.32.46:405][  0]LogShaderCompilers: Display:                                      FGenerateLightSamplesCS - 32.25% of total time (compiled  406 times, average 6.66 sec, max 21.09 sec, min 0.99 sec)
+[2026.10.24-03.32.46:405][  0]LogShaderCompilers: Display:                                        FMicropolyRasterizeCS - 13.78% of total time (compiled  283 times, average 4.08 sec, max 25.95 sec, min 0.46 sec)
+[2026.10.24-03.32.46:405][  0]LogShaderCompilers: Display:                                         FShadeLightSamplesCS - 11.15% of total time (compiled  504 times, average 1.85 sec, max 4.13 sec, min 0.40 sec)
+[2026.10.24-03.32.46:405][  0]LogShaderCompilers: Display:                          FReflectionEnvironmentSkyLightingPS - 8.01% of total time (compiled  480 times, average 1.40 sec, max 15.00 sec, min 0.19 sec)
+[2026.10.24-03.32.46:405][  0]LogShaderCompilers: Display:                         FLumenReflectionHardwareRayTracingCS - 7.26% of total time (compiled  304 times, average 2.00 sec, max 17.88 sec, min 0.38 sec)
+[2026.10.24-03.32.46:405][  0]LogShaderCompilers: Display: === Material stats ===
+[2026.10.24-03.32.46:405][  0]LogShaderCompilers: Display: Materials Cooked:        0
+[2026.10.24-03.32.46:405][  0]LogShaderCompilers: Display: Materials Translated:    145
+[2026.10.24-03.32.46:405][  0]LogShaderCompilers: Display: Material Total Translate Time: 0.16 s
+[2026.10.24-03.32.46:405][  0]LogShaderCompilers: Display: Material Translation Only: 0.07 s (45%)
+[2026.10.24-03.32.46:405][  0]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2026.10.24-03.32.46:405][  0]LogShaderCompilers: Display: Material Cache Hits: 17 (12%)
+[2026.10.24-03.32.46:405][  0]LogShaderCompilers: Display: ================================================
+[2026.10.24-03.32.46:619][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2026.10.24-03.32.46:619][  0]LogCsvProfiler: Display: Metadata set : streamingpoolsizemb="1000"
+[2026.10.24-03.32.46:690][  0]LogZenServiceInstance: Display: Launching zen utility 'C:/Program Files/Epic Games/UE_5.7/Engine/Binaries/Win64/zen.exe service status'.
+[2026.10.24-03.32.46:995][  0]LogZenServiceInstance: Display: Launching zen utility 'C:/Program Files/Epic Games/UE_5.7/Engine/Binaries/Win64/zen.exe service status'.
+[2026.10.24-03.32.47:202][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.24-03.32.47:203][  0]LogPython: Display: Running start-up script C:/Program Files/Epic Games/UE_5.7/Engine/Plugins/Animation/IKRig/Content/Python/init_unreal.py... started...
+[2026.10.24-03.32.47:230][  0]LogPython: Display: Running start-up script C:/Program Files/Epic Games/UE_5.7/Engine/Plugins/Animation/IKRig/Content/Python/init_unreal.py... took 26.952 ms
+[2026.10.24-03.32.47:231][  0]LogPython: Display: Running start-up script C:/Program Files/Epic Games/UE_5.7/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py... started...
+[2026.10.24-03.32.47:243][  0]LogPython: registering <class 'ControlRigWorkflows.workflow_deformation_rig_preset.provider'>
+
+[2026.10.24-03.32.47:255][  0]LogPython: Display: Running start-up script C:/Program Files/Epic Games/UE_5.7/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py... took 24.420 ms (total: 51.372 ms)
+[2026.10.24-03.32.47:557][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/' took 1.15s
+[2026.10.24-03.32.47:564][  1]LogAssetRegistry: AssetRegistryGather time 30.2584s: AssetDataDiscovery 0.4680s, AssetDataGather 29.6568s, StoreResults 0.1336s. Wall time 1328.9620s.
+	NumCachedDirectories 0. NumUncachedDirectories 1797. NumCachedFiles 0. NumUncachedFiles 8141.
+	BackgroundTickInterruptions 0.
+[2026.10.24-03.32.47:607][  1]LogAssetRegistry: Display: Starting OnFilesLoaded.Broadcast
+[2026.10.24-03.32.47:619][  1]LogPlacementMode: Display: The Asset Registry is done with its initial scan, the list of placeable classes has been updated.
+[2026.10.24-03.32.47:633][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000000 seconds (updated 0 objects)
+[2026.10.24-03.32.47:633][  1]LogAssetRegistry: Display: Completed OnFilesLoaded.Broadcast: -0.205s
+[2026.10.24-03.32.47:633][  1]LogSourceControl: Uncontrolled asset discovery started...
+[2026.10.24-03.32.47:838][  2]LogEOSSDK: LogEOS: SDK Config Platform Update Request Successful, Time: 10.381832
+[2026.10.24-03.32.47:840][  2]LogEOSSDK: LogEOSAnalytics: EOS SDK Analytics disabled for route [1].
+[2026.10.24-03.32.47:841][  2]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 10.551907
+[2026.10.24-03.32.48:483][  3]LogD3D12RHI: Waited for PSO creation for 100.000000ms
+[2026.10.24-03.32.48:487][  3]LogPSOHitching: Encountered 150 PSO creation hitches so far (35 graphics, 115 compute). 0 of them were precached.
+[2026.10.24-03.32.48:538][  3]LogD3D12RHI: Waited for PSO creation for 100.000000ms
+[2026.10.24-03.32.48:549][  3]LogD3D12RHI: Waited for PSO creation for 100.000000ms
+[2026.10.24-03.32.48:632][  3]LogD3D12RHI: Waited for PSO creation for 200.000000ms
+[2026.10.24-03.32.48:649][  3]LogD3D12RHI: Waited for PSO creation for 200.000000ms
+[2026.10.24-03.32.48:816][  3]LogSourceControl: Uncontrolled asset discovery finished in 1.183328 seconds (Found 8117 uncontrolled assets)
+[2026.10.24-03.32.49:417][  3]LogPSOHitching: Encountered 200 PSO creation hitches so far (57 graphics, 143 compute). 0 of them were precached.
+[2026.10.24-03.32.49:614][  3]LogAssetRegistry: Display: Asset registry cache written as 75.2 MiB to ../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Intermediate/CachedAssetRegistry_*.bin
+[2026.10.24-03.32.50:329][  4]LogPSOHitching: Encountered 250 PSO creation hitches so far (76 graphics, 174 compute). 0 of them were precached.
+[2026.10.24-03.32.50:932][  6]LogEOSSDK: LogEOSAnalytics: Start Session (User: ...)
+[2026.10.24-03.32.51:599][  8]LogEOSSDK: LogEOS: SDK Config Product Update Request Successful, Time: 13.977311
+[2026.10.24-03.32.51:602][  8]LogEOSSDK: LogEOS: SDK Config Data - Watermark: -1267564831
+[2026.10.24-03.32.51:602][  8]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 13.977311, Update Interval: 352.761627
+[2026.10.24-03.33.01:264][ 37]LogCameraSystem: Creating camera system host for gameplay camera 'BP_FixedCameraActor_C_UAID_10FFE0755891560B03_1692590586'.
+[2026.10.24-03.33.01:264][ 37]LogCameraSystem: Activating gameplay camera 'GameplayCameraRig' with mode 'EGameplayCameraComponentActivationMode::Push'.
+[2026.10.24-03.33.01:264][ 37]LogCameraSystem: Warning: AttachToActorCameraNode: Couldn't resolve attachment! The camera will stay in place.
+[2026.10.24-03.33.02:969][113]LogSlate: Took 0.000212 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2026.10.24-03.33.20:220][213]LogStreaming: Display: FlushAsyncLoading(403): 1 QueuedPackages, 0 AsyncPackages
+[2026.10.24-03.33.20:444][213]LogLinker: Warning: [AssetLog] C:\Users\r11-1101\Documents\GitHub\Homework_GameplayCamera\Content\Blueprints\ThirdPerson\Blueprints\BP_ThirdPersonCharacter.uasset: VerifyImport: Failed to find script package for import object 'Package /Script/MotionWarping'
+[2026.10.24-03.33.20:446][213]LogLinker: Warning: Unable to load MotionWarping_GEN_VARIABLE with outer BlueprintGeneratedClass /Game/Blueprints/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter_C because its class (MotionWarpingComponent) does not exist
+[2026.10.24-03.33.20:447][213]LogBlueprint: Warning: [AssetLog] C:\Users\r11-1101\Documents\GitHub\Homework_GameplayCamera\Content\Blueprints\ThirdPerson\Blueprints\BP_ThirdPersonCharacter.uasset: [Compiler] Component class is not set for 'MotionWarping' - this component will not be instanced, and additional warnings or errors may occur when compiling Blueprint 'BP_ThirdPersonCharacter'.
+[2026.10.24-03.33.20:468][213]LogLinker: Warning: Unable to load MotionWarping_GEN_VARIABLE with outer BlueprintGeneratedClass /Game/Blueprints/ThirdPerson/Blueprints/BP_PlayerCharacter.BP_PlayerCharacter_C because its class (MotionWarpingComponent) does not exist
+[2026.10.24-03.33.20:847][213]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_ThirdPerson
+[2026.10.24-03.33.20:848][213]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_ThirdPerson)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2026.10.24-03.33.20:848][213]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.10.24-03.33.20:848][213]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Blueprints/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson, World Type = Inactive, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.10.24-03.33.20:861][213]LogWorldPartition: Display: WorldPartition initialize took 12.272 ms (total: 634.443 ms)
+[2026.10.24-03.33.24:351][463]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.24-03.33.24:352][463]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/E/L8/4DDUD245V8W7L0LBT34TK3
+[2026.10.24-03.33.24:365][463]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/E/L8/4DDUD245V8W7L0LBT34TK3
+[2026.10.24-03.33.24:365][463]LogSavePackage: Moving '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/4DDUD245V8W7L0LBT34TK38B36A7B74D8832334A1DD381A87CF920.tmp' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/E/L8/4DDUD245V8W7L0LBT34TK3.uasset'
+[2026.10.24-03.33.24:367][463]LogFileHelpers: Saving Package: /Game/__ExternalObjects__/Blueprints/ThirdPerson/Lvl_ThirdPerson/A/ZU/41QVSQZWZH8IE3UA6WWBZA
+[2026.10.24-03.33.24:379][463]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/Blueprints/ThirdPerson/Lvl_ThirdPerson/A/ZU/41QVSQZWZH8IE3UA6WWBZA
+[2026.10.24-03.33.24:379][463]LogSavePackage: Moving '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/41QVSQZWZH8IE3UA6WWBZA7F770A8B4D54981E87CDDCBE2B6CB797.tmp' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/__ExternalObjects__/Blueprints/ThirdPerson/Lvl_ThirdPerson/A/ZU/41QVSQZWZH8IE3UA6WWBZA.uasset'
+[2026.10.24-03.33.24:381][463]LogFileHelpers: Saving Package: /Game/__ExternalObjects__/Blueprints/ThirdPerson/Lvl_ThirdPerson/C/FA/GM57IKNJIA441Y0DP8ACO3
+[2026.10.24-03.33.24:389][463]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/Blueprints/ThirdPerson/Lvl_ThirdPerson/C/FA/GM57IKNJIA441Y0DP8ACO3
+[2026.10.24-03.33.24:389][463]LogSavePackage: Moving '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/GM57IKNJIA441Y0DP8ACO3DBFB601E4E35FB1C6405BEBBC64BB8B1.tmp' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/__ExternalObjects__/Blueprints/ThirdPerson/Lvl_ThirdPerson/C/FA/GM57IKNJIA441Y0DP8ACO3.uasset'
+[2026.10.24-03.33.24:391][463]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/0/GY/V01UF3815ZG73PK0BE5RHM
+[2026.10.24-03.33.24:399][463]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/0/GY/V01UF3815ZG73PK0BE5RHM
+[2026.10.24-03.33.24:400][463]LogSavePackage: Moving '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/V01UF3815ZG73PK0BE5RHM1C58A6EF4651446C5398A180A21AFF52.tmp' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/0/GY/V01UF3815ZG73PK0BE5RHM.uasset'
+[2026.10.24-03.33.24:401][463]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/0/MX/T3O9LVP3XTJLO3S9P4CL38
+[2026.10.24-03.33.24:409][463]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/0/MX/T3O9LVP3XTJLO3S9P4CL38
+[2026.10.24-03.33.24:410][463]LogSavePackage: Moving '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/T3O9LVP3XTJLO3S9P4CL3836E99F1D4B4DA77AE52A42A46E83AA4E.tmp' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/0/MX/T3O9LVP3XTJLO3S9P4CL38.uasset'
+[2026.10.24-03.33.24:410][463]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/0/W1/7EZ3TWZ2S9VSSNLX3UL595
+[2026.10.24-03.33.24:417][463]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/0/W1/7EZ3TWZ2S9VSSNLX3UL595
+[2026.10.24-03.33.24:418][463]LogSavePackage: Moving '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/7EZ3TWZ2S9VSSNLX3UL595947568FA425E276D96197F856BBD33F2.tmp' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/0/W1/7EZ3TWZ2S9VSSNLX3UL595.uasset'
+[2026.10.24-03.33.24:421][463]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/1/5U/JUJZBCVVS8KMCTXQTJANOT
+[2026.10.24-03.33.24:431][463]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/1/5U/JUJZBCVVS8KMCTXQTJANOT
+[2026.10.24-03.33.24:432][463]LogSavePackage: Moving '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/JUJZBCVVS8KMCTXQTJANOT1512A116488AF7D5B4C4D2891C2C3F0F.tmp' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/1/5U/JUJZBCVVS8KMCTXQTJANOT.uasset'
+[2026.10.24-03.33.24:433][463]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/1/LN/T5WYB2TG8B6G2H8T1IIDHK
+[2026.10.24-03.33.24:444][463]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/1/LN/T5WYB2TG8B6G2H8T1IIDHK
+[2026.10.24-03.33.24:444][463]LogSavePackage: Moving '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/T5WYB2TG8B6G2H8T1IIDHK581F590F40DBB1D3912F25BE3A3E60C5.tmp' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/1/LN/T5WYB2TG8B6G2H8T1IIDHK.uasset'
+[2026.10.24-03.33.24:445][463]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/2/51/XGICQZY7C9CPKXYGAPM1PR
+[2026.10.24-03.33.24:453][463]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/2/51/XGICQZY7C9CPKXYGAPM1PR
+[2026.10.24-03.33.24:454][463]LogSavePackage: Moving '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/XGICQZY7C9CPKXYGAPM1PRDDB013ED451D99DD8D9188BCD5D7D1DA.tmp' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/2/51/XGICQZY7C9CPKXYGAPM1PR.uasset'
+[2026.10.24-03.33.24:455][463]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/2/9E/QV0S2GQAK6YVZBAYJ0QLPC
+[2026.10.24-03.33.24:460][463]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/2/9E/QV0S2GQAK6YVZBAYJ0QLPC
+[2026.10.24-03.33.24:461][463]LogSavePackage: Moving '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/QV0S2GQAK6YVZBAYJ0QLPC46D752E949F3A119960C5B91C0D1F881.tmp' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/2/9E/QV0S2GQAK6YVZBAYJ0QLPC.uasset'
+[2026.10.24-03.33.24:463][463]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/2/EK/R3K5C7UP7U8TTJQWM7AWUS
+[2026.10.24-03.33.24:470][463]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/2/EK/R3K5C7UP7U8TTJQWM7AWUS
+[2026.10.24-03.33.24:471][463]LogSavePackage: Moving '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/R3K5C7UP7U8TTJQWM7AWUS1E7D72E84B3BEF90C7921BB24FD52ED6.tmp' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/2/EK/R3K5C7UP7U8TTJQWM7AWUS.uasset'
+[2026.10.24-03.33.24:474][463]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/2/TU/CRKD6B6LHYNOYOA2YCE8E8
+[2026.10.24-03.33.24:481][463]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/2/TU/CRKD6B6LHYNOYOA2YCE8E8
+[2026.10.24-03.33.24:482][463]LogSavePackage: Moving '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/CRKD6B6LHYNOYOA2YCE8E8CBE6199F4512F96CA2C313906D0E59D6.tmp' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/2/TU/CRKD6B6LHYNOYOA2YCE8E8.uasset'
+[2026.10.24-03.33.24:483][463]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/2/VQ/47SWXZO0ODJD6WICA48V36
+[2026.10.24-03.33.24:490][463]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/2/VQ/47SWXZO0ODJD6WICA48V36
+[2026.10.24-03.33.24:490][463]LogSavePackage: Moving '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/47SWXZO0ODJD6WICA48V36BEEB8A5B40941517C9D7F8BA654D1851.tmp' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/2/VQ/47SWXZO0ODJD6WICA48V36.uasset'
+[2026.10.24-03.33.24:491][463]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/3/34/122YOV87CXTENP25Z866K3
+[2026.10.24-03.33.24:498][463]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/3/34/122YOV87CXTENP25Z866K3
+[2026.10.24-03.33.24:498][463]LogSavePackage: Moving '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/122YOV87CXTENP25Z866K30874A798494301A616117A99AD425A65.tmp' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/3/34/122YOV87CXTENP25Z866K3.uasset'
+[2026.10.24-03.33.24:499][463]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/3/9P/NZ005VI9XLYVY5PR6MAPX2
+[2026.10.24-03.33.24:505][463]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/3/9P/NZ005VI9XLYVY5PR6MAPX2
+[2026.10.24-03.33.24:506][463]LogSavePackage: Moving '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/NZ005VI9XLYVY5PR6MAPX2D9022FA047A215D1A589219F0E3DB292.tmp' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/3/9P/NZ005VI9XLYVY5PR6MAPX2.uasset'
+[2026.10.24-03.33.24:507][463]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/3/G0/5RP9W5WXQPXOPN606V080R
+[2026.10.24-03.33.24:513][463]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/3/G0/5RP9W5WXQPXOPN606V080R
+[2026.10.24-03.33.24:514][463]LogSavePackage: Moving '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/5RP9W5WXQPXOPN606V080RC2D972B24EC04B2A7CCC7E974ED5054F.tmp' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/3/G0/5RP9W5WXQPXOPN606V080R.uasset'
+[2026.10.24-03.33.24:515][463]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/3/YI/DWXPYN2DLN95D4209N2AFY
+[2026.10.24-03.33.24:524][463]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/3/YI/DWXPYN2DLN95D4209N2AFY
+[2026.10.24-03.33.24:524][463]LogSavePackage: Moving '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/DWXPYN2DLN95D4209N2AFYB35451C2456E2C96A842F0969DD35194.tmp' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/3/YI/DWXPYN2DLN95D4209N2AFY.uasset'
+[2026.10.24-03.33.24:525][463]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/4/29/91KJ6XWRMNH32463GXRZQ3
+[2026.10.24-03.33.24:534][463]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/4/29/91KJ6XWRMNH32463GXRZQ3
+[2026.10.24-03.33.24:534][463]LogSavePackage: Moving '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/91KJ6XWRMNH32463GXRZQ3D5F2A43A4001E7F23E308A80925D4761.tmp' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/4/29/91KJ6XWRMNH32463GXRZQ3.uasset'
+[2026.10.24-03.33.24:535][463]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/4/IF/7OD5R0XDUUU0IBNIQ9P8HY
+[2026.10.24-03.33.24:543][463]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/4/IF/7OD5R0XDUUU0IBNIQ9P8HY
+[2026.10.24-03.33.24:544][463]LogSavePackage: Moving '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/7OD5R0XDUUU0IBNIQ9P8HY87E488DF45E7C9A2F3A2C38672A66443.tmp' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/4/IF/7OD5R0XDUUU0IBNIQ9P8HY.uasset'
+[2026.10.24-03.33.24:545][463]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/4/TA/8MSW2YICYW3DHFA8Z66TWR
+[2026.10.24-03.33.24:551][463]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/4/TA/8MSW2YICYW3DHFA8Z66TWR
+[2026.10.24-03.33.24:552][463]LogSavePackage: Moving '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/8MSW2YICYW3DHFA8Z66TWR7C4BD5C34363EABE48020A8BBD0E34D5.tmp' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/4/TA/8MSW2YICYW3DHFA8Z66TWR.uasset'
+[2026.10.24-03.33.24:553][463]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/4/XB/XC2W9Z3KKI82QCJ1JIGEKV
+[2026.10.24-03.33.24:560][463]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/4/XB/XC2W9Z3KKI82QCJ1JIGEKV
+[2026.10.24-03.33.24:560][463]LogSavePackage: Moving '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/XC2W9Z3KKI82QCJ1JIGEKV8F564844458B89BEC4ACCB98723BC38B.tmp' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/4/XB/XC2W9Z3KKI82QCJ1JIGEKV.uasset'
+[2026.10.24-03.33.24:561][463]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/5/0I/VLFTN00394NJKX7XGD7MHB
+[2026.10.24-03.33.24:568][463]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/5/0I/VLFTN00394NJKX7XGD7MHB
+[2026.10.24-03.33.24:570][463]LogSavePackage: Moving '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/VLFTN00394NJKX7XGD7MHB93AAA5224A9EFA8F86C8729BB92FC012.tmp' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/5/0I/VLFTN00394NJKX7XGD7MHB.uasset'
+[2026.10.24-03.33.24:571][463]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/5/1W/YZXL4Y4651VUCOB6Y7A422
+[2026.10.24-03.33.24:579][463]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/5/1W/YZXL4Y4651VUCOB6Y7A422
+[2026.10.24-03.33.24:579][463]LogSavePackage: Moving '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/YZXL4Y4651VUCOB6Y7A42274DEBDF24FE55B066F438F83D2FE8997.tmp' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/5/1W/YZXL4Y4651VUCOB6Y7A422.uasset'
+[2026.10.24-03.33.24:581][463]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/5/OK/A64Y1VBKLH2RGQ34D58DU6
+[2026.10.24-03.33.24:588][463]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/5/OK/A64Y1VBKLH2RGQ34D58DU6
+[2026.10.24-03.33.24:589][463]LogSavePackage: Moving '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/A64Y1VBKLH2RGQ34D58DU60973679A4CAE40A7C1E6A49F3E1DBBCB.tmp' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/5/OK/A64Y1VBKLH2RGQ34D58DU6.uasset'
+[2026.10.24-03.33.24:590][463]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/6/TD/TG7C5M74PAXCG10YLIZR15
+[2026.10.24-03.33.24:597][463]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/6/TD/TG7C5M74PAXCG10YLIZR15
+[2026.10.24-03.33.24:597][463]LogSavePackage: Moving '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/TG7C5M74PAXCG10YLIZR1568BE3ED441F5262DBDAE89B1F8A564C8.tmp' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/6/TD/TG7C5M74PAXCG10YLIZR15.uasset'
+[2026.10.24-03.33.24:599][463]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/7/99/4K1318XH7MHV5KERVTNU6Z
+[2026.10.24-03.33.24:607][463]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/7/99/4K1318XH7MHV5KERVTNU6Z
+[2026.10.24-03.33.24:607][463]LogSavePackage: Moving '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/4K1318XH7MHV5KERVTNU6Z9AE4B6EE4EF5CD64C0AD0DACBD61D344.tmp' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/7/99/4K1318XH7MHV5KERVTNU6Z.uasset'
+[2026.10.24-03.33.24:609][463]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/7/GV/18NW1WY72VI2YAGSK1LEPH
+[2026.10.24-03.33.24:616][463]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/7/GV/18NW1WY72VI2YAGSK1LEPH
+[2026.10.24-03.33.24:617][463]LogSavePackage: Moving '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/18NW1WY72VI2YAGSK1LEPHB613BA4242E0A77B991CDE8DEC94BFDF.tmp' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/7/GV/18NW1WY72VI2YAGSK1LEPH.uasset'
+[2026.10.24-03.33.24:618][463]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/7/I2/4Y2V5JWR3W1T9SQ4I16ET9
+[2026.10.24-03.33.24:628][463]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/7/I2/4Y2V5JWR3W1T9SQ4I16ET9
+[2026.10.24-03.33.24:628][463]LogSavePackage: Moving '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/4Y2V5JWR3W1T9SQ4I16ET99F1C7B284F02DC04115FDE847E556B3A.tmp' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/7/I2/4Y2V5JWR3W1T9SQ4I16ET9.uasset'
+[2026.10.24-03.33.24:630][463]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/7/IA/U4CFFUG7ZM4NEIRRNHW6LY
+[2026.10.24-03.33.24:638][463]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/7/IA/U4CFFUG7ZM4NEIRRNHW6LY
+[2026.10.24-03.33.24:639][463]LogSavePackage: Moving '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/U4CFFUG7ZM4NEIRRNHW6LY15833250413839BA8A7B5CB76CA7C86A.tmp' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/7/IA/U4CFFUG7ZM4NEIRRNHW6LY.uasset'
+[2026.10.24-03.33.24:640][463]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/7/R6/MV7F9I3REYAKC6A76A5QI3
+[2026.10.24-03.33.24:647][463]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/7/R6/MV7F9I3REYAKC6A76A5QI3
+[2026.10.24-03.33.24:648][463]LogSavePackage: Moving '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/MV7F9I3REYAKC6A76A5QI32762C31E4AD1A7C3D90947B26357B3D2.tmp' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/7/R6/MV7F9I3REYAKC6A76A5QI3.uasset'
+[2026.10.24-03.33.24:649][463]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/7/RZ/O58GC31BDXB7FAVBKKY0FJ
+[2026.10.24-03.33.24:657][463]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/7/RZ/O58GC31BDXB7FAVBKKY0FJ
+[2026.10.24-03.33.24:657][463]LogSavePackage: Moving '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/O58GC31BDXB7FAVBKKY0FJF5BE27674E2C1FB647999AAD89979A85.tmp' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/7/RZ/O58GC31BDXB7FAVBKKY0FJ.uasset'
+[2026.10.24-03.33.24:659][463]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/7/XS/6ZP10H1G7ETD799B65FIKZ
+[2026.10.24-03.33.24:666][463]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/7/XS/6ZP10H1G7ETD799B65FIKZ
+[2026.10.24-03.33.24:667][463]LogSavePackage: Moving '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/6ZP10H1G7ETD799B65FIKZBC681D76400B718F6ACD9AB39F938E5F.tmp' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/7/XS/6ZP10H1G7ETD799B65FIKZ.uasset'
+[2026.10.24-03.33.24:669][463]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/8/EY/HETFQJ4ELUZJWUJ0G5A20Q
+[2026.10.24-03.33.24:677][463]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/8/EY/HETFQJ4ELUZJWUJ0G5A20Q
+[2026.10.24-03.33.24:678][463]LogSavePackage: Moving '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/HETFQJ4ELUZJWUJ0G5A20QF9D08A554F97BFDB29463C985AAF38D9.tmp' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/8/EY/HETFQJ4ELUZJWUJ0G5A20Q.uasset'
+[2026.10.24-03.33.24:681][463]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/8/G1/8Y5SCTOD3LJ8ROW67Y1L8C
+[2026.10.24-03.33.24:690][463]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/8/G1/8Y5SCTOD3LJ8ROW67Y1L8C
+[2026.10.24-03.33.24:691][463]LogSavePackage: Moving '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/8Y5SCTOD3LJ8ROW67Y1L8C35F2B9834FF210F96F7B4CB6FADE1EEC.tmp' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/8/G1/8Y5SCTOD3LJ8ROW67Y1L8C.uasset'
+[2026.10.24-03.33.24:691][463]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/8/KD/HF28KPQ16DDGISWKMDQQXS
+[2026.10.24-03.33.24:701][463]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/8/KD/HF28KPQ16DDGISWKMDQQXS
+[2026.10.24-03.33.24:701][463]LogSavePackage: Moving '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/HF28KPQ16DDGISWKMDQQXSB938E2DD49A3945E7C9910BE5A9AFAD3.tmp' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/8/KD/HF28KPQ16DDGISWKMDQQXS.uasset'
+[2026.10.24-03.33.24:702][463]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/8/KF/F7KQ6G6U3BWNUUJIHL03QS
+[2026.10.24-03.33.24:709][463]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/8/KF/F7KQ6G6U3BWNUUJIHL03QS
+[2026.10.24-03.33.24:709][463]LogSavePackage: Moving '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/F7KQ6G6U3BWNUUJIHL03QSAD6945AD4BEC8B14A5DBCD8FE7B33DB0.tmp' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/8/KF/F7KQ6G6U3BWNUUJIHL03QS.uasset'
+[2026.10.24-03.33.24:711][463]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/8/M5/6HG7LX3BK3TN9WP13BQD4T
+[2026.10.24-03.33.24:719][463]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/8/M5/6HG7LX3BK3TN9WP13BQD4T
+[2026.10.24-03.33.24:720][463]LogSavePackage: Moving '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/6HG7LX3BK3TN9WP13BQD4T032FB2E749825E826C5A00A84BFE3826.tmp' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/8/M5/6HG7LX3BK3TN9WP13BQD4T.uasset'
+[2026.10.24-03.33.24:721][463]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/8/UN/JAMTRM13I48MVF9U8UEZ88
+[2026.10.24-03.33.24:730][463]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/8/UN/JAMTRM13I48MVF9U8UEZ88
+[2026.10.24-03.33.24:730][463]LogSavePackage: Moving '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/JAMTRM13I48MVF9U8UEZ8808E24CBC4EA3926E8968328FD5C52198.tmp' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/8/UN/JAMTRM13I48MVF9U8UEZ88.uasset'
+[2026.10.24-03.33.24:732][463]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/8/Y5/QZYCYKGEAA113SG8I5X1LU
+[2026.10.24-03.33.24:741][463]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/8/Y5/QZYCYKGEAA113SG8I5X1LU
+[2026.10.24-03.33.24:742][463]LogSavePackage: Moving '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/QZYCYKGEAA113SG8I5X1LU0E37B6FA41AD1A1CB7F69787DA88F234.tmp' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/8/Y5/QZYCYKGEAA113SG8I5X1LU.uasset'
+[2026.10.24-03.33.24:743][463]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/9/I2/CPJEE0LT549JKAXBSF8460
+[2026.10.24-03.33.24:752][463]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/9/I2/CPJEE0LT549JKAXBSF8460
+[2026.10.24-03.33.24:753][463]LogSavePackage: Moving '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/CPJEE0LT549JKAXBSF8460F42C67EC4417B13B59F81D8BD7D6C93E.tmp' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/9/I2/CPJEE0LT549JKAXBSF8460.uasset'
+[2026.10.24-03.33.24:754][463]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/9/IA/Z9R3BJF7VXDNQ3BNV295DK
+[2026.10.24-03.33.24:762][463]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/9/IA/Z9R3BJF7VXDNQ3BNV295DK
+[2026.10.24-03.33.24:763][463]LogSavePackage: Moving '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/Z9R3BJF7VXDNQ3BNV295DK93AA83C84B4E8694281A6E9B6CEEED70.tmp' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/9/IA/Z9R3BJF7VXDNQ3BNV295DK.uasset'
+[2026.10.24-03.33.24:764][463]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/9/RB/XUKOX1MDGX8TVMTXGAIZ6O
+[2026.10.24-03.33.24:772][463]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/9/RB/XUKOX1MDGX8TVMTXGAIZ6O
+[2026.10.24-03.33.24:773][463]LogSavePackage: Moving '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/XUKOX1MDGX8TVMTXGAIZ6O6637C1104844E114EA370FAE3F89C1E0.tmp' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/9/RB/XUKOX1MDGX8TVMTXGAIZ6O.uasset'
+[2026.10.24-03.33.24:774][463]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/9/YI/O3Z283PA4A5IIXQXGQBSWC
+[2026.10.24-03.33.24:782][463]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/9/YI/O3Z283PA4A5IIXQXGQBSWC
+[2026.10.24-03.33.24:782][463]LogSavePackage: Moving '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/O3Z283PA4A5IIXQXGQBSWC279096A04316557E3F528CB6F23693A7.tmp' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/9/YI/O3Z283PA4A5IIXQXGQBSWC.uasset'
+[2026.10.24-03.33.24:783][463]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/A/K2/FAASW1HA3ULPRA729XVA1L
+[2026.10.24-03.33.24:791][463]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/A/K2/FAASW1HA3ULPRA729XVA1L
+[2026.10.24-03.33.24:792][463]LogSavePackage: Moving '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/FAASW1HA3ULPRA729XVA1L4B3DCDA249756596B5865A8DCE8BF680.tmp' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/A/K2/FAASW1HA3ULPRA729XVA1L.uasset'
+[2026.10.24-03.33.24:793][463]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/A/VE/3FSXPO0CI4INMP6OUJN3XO
+[2026.10.24-03.33.24:800][463]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/A/VE/3FSXPO0CI4INMP6OUJN3XO
+[2026.10.24-03.33.24:801][463]LogSavePackage: Moving '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/3FSXPO0CI4INMP6OUJN3XO50434C2E432CC1CDD078838A857E878F.tmp' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/A/VE/3FSXPO0CI4INMP6OUJN3XO.uasset'
+[2026.10.24-03.33.24:802][463]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/A/Y5/12U30Q9NV1K5QC0JD6QEYB
+[2026.10.24-03.33.24:808][463]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/A/Y5/12U30Q9NV1K5QC0JD6QEYB
+[2026.10.24-03.33.24:809][463]LogSavePackage: Moving '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/12U30Q9NV1K5QC0JD6QEYB4D51269B4F1E95F4FB4491BBE2DB4E29.tmp' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/A/Y5/12U30Q9NV1K5QC0JD6QEYB.uasset'
+[2026.10.24-03.33.24:810][463]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/B/9A/JRRX62CPZYEC5A2T3Y63R1
+[2026.10.24-03.33.24:816][463]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/B/9A/JRRX62CPZYEC5A2T3Y63R1
+[2026.10.24-03.33.24:817][463]LogSavePackage: Moving '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/JRRX62CPZYEC5A2T3Y63R11CF0AC094C52E069E4F2F9A9A6DC19AE.tmp' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/B/9A/JRRX62CPZYEC5A2T3Y63R1.uasset'
+[2026.10.24-03.33.24:818][463]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/B/G2/D96A5FS8BKG0IZW41761KQ
+[2026.10.24-03.33.24:825][463]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/B/G2/D96A5FS8BKG0IZW41761KQ
+[2026.10.24-03.33.24:825][463]LogSavePackage: Moving '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/D96A5FS8BKG0IZW41761KQ67C5F4F14A67ABCB3217A682274D65FC.tmp' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/B/G2/D96A5FS8BKG0IZW41761KQ.uasset'
+[2026.10.24-03.33.24:826][463]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/B/GE/BH652OG60SI55SOXOHTW37
+[2026.10.24-03.33.24:832][463]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/B/GE/BH652OG60SI55SOXOHTW37
+[2026.10.24-03.33.24:834][463]LogSavePackage: Moving '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/BH652OG60SI55SOXOHTW3713E98F0C41CE381210EF508F5026C59B.tmp' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/B/GE/BH652OG60SI55SOXOHTW37.uasset'
+[2026.10.24-03.33.24:835][463]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/B/GO/K15HCP7NJ9YNF06NQEYNGH
+[2026.10.24-03.33.24:841][463]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/B/GO/K15HCP7NJ9YNF06NQEYNGH
+[2026.10.24-03.33.24:841][463]LogSavePackage: Moving '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/K15HCP7NJ9YNF06NQEYNGH8F73ACB44CD1ADF6D61C31B6501E022A.tmp' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/B/GO/K15HCP7NJ9YNF06NQEYNGH.uasset'
+[2026.10.24-03.33.24:843][463]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/B/IH/ZVZ0YB8H6BB84JEMET0ZRV
+[2026.10.24-03.33.24:849][463]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/B/IH/ZVZ0YB8H6BB84JEMET0ZRV
+[2026.10.24-03.33.24:849][463]LogSavePackage: Moving '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/ZVZ0YB8H6BB84JEMET0ZRVB7BEE843421F611EE6F57CB8B0397D28.tmp' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/B/IH/ZVZ0YB8H6BB84JEMET0ZRV.uasset'
+[2026.10.24-03.33.24:851][463]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/B/PY/BM74E037SS0ATP9HTGVA8J
+[2026.10.24-03.33.24:859][463]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/B/PY/BM74E037SS0ATP9HTGVA8J
+[2026.10.24-03.33.24:859][463]LogSavePackage: Moving '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/BM74E037SS0ATP9HTGVA8J12D574BA4843FD9692691F91FF2A4D19.tmp' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/B/PY/BM74E037SS0ATP9HTGVA8J.uasset'
+[2026.10.24-03.33.24:861][463]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/B/S4/QI3MGDJHU9D3MIX0DV9PIL
+[2026.10.24-03.33.24:868][463]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/B/S4/QI3MGDJHU9D3MIX0DV9PIL
+[2026.10.24-03.33.24:868][463]LogSavePackage: Moving '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/QI3MGDJHU9D3MIX0DV9PIL68F84F3448A4C9570951808EADCFDA48.tmp' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/B/S4/QI3MGDJHU9D3MIX0DV9PIL.uasset'
+[2026.10.24-03.33.24:869][463]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/B/XA/6OPJ8ZW7PNZ4253SNBFFQZ
+[2026.10.24-03.33.24:877][463]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/B/XA/6OPJ8ZW7PNZ4253SNBFFQZ
+[2026.10.24-03.33.24:878][463]LogSavePackage: Moving '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/6OPJ8ZW7PNZ4253SNBFFQZC70A127C4931BFF836A5DAA770E4FE8C.tmp' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/B/XA/6OPJ8ZW7PNZ4253SNBFFQZ.uasset'
+[2026.10.24-03.33.24:881][463]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/C/9Y/9V04J0UCXR826XTR2WWM7E
+[2026.10.24-03.33.24:889][463]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/C/9Y/9V04J0UCXR826XTR2WWM7E
+[2026.10.24-03.33.24:890][463]LogSavePackage: Moving '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/9V04J0UCXR826XTR2WWM7E49C2F6FD4747BA5D5A2E24B96F00BC5F.tmp' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/C/9Y/9V04J0UCXR826XTR2WWM7E.uasset'
+[2026.10.24-03.33.24:891][463]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/C/JX/PEBWUSKOAAIWC3BRWVE2IR
+[2026.10.24-03.33.24:898][463]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/C/JX/PEBWUSKOAAIWC3BRWVE2IR
+[2026.10.24-03.33.24:898][463]LogSavePackage: Moving '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/PEBWUSKOAAIWC3BRWVE2IR28A57DCE4D70EC5741B73DBA4F552B5C.tmp' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/C/JX/PEBWUSKOAAIWC3BRWVE2IR.uasset'
+[2026.10.24-03.33.24:900][463]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/C/V6/9TEMIV0HB4KDF5OMJBV5VJ
+[2026.10.24-03.33.24:908][463]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/C/V6/9TEMIV0HB4KDF5OMJBV5VJ
+[2026.10.24-03.33.24:908][463]LogSavePackage: Moving '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/9TEMIV0HB4KDF5OMJBV5VJ5D94D1C5476B73825F7092AA1F99EDB6.tmp' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/C/V6/9TEMIV0HB4KDF5OMJBV5VJ.uasset'
+[2026.10.24-03.33.24:909][463]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/D/6C/CRYFWKIVGMYZV9KD4S6X0M
+[2026.10.24-03.33.24:916][463]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/D/6C/CRYFWKIVGMYZV9KD4S6X0M
+[2026.10.24-03.33.24:916][463]LogSavePackage: Moving '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/CRYFWKIVGMYZV9KD4S6X0MBF7430634320D71FAB812A934311C1B9.tmp' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/D/6C/CRYFWKIVGMYZV9KD4S6X0M.uasset'
+[2026.10.24-03.33.24:918][463]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/D/6U/9JCCD34I6XM2K2JY4OLOS9
+[2026.10.24-03.33.24:925][463]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/D/6U/9JCCD34I6XM2K2JY4OLOS9
+[2026.10.24-03.33.24:925][463]LogSavePackage: Moving '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/9JCCD34I6XM2K2JY4OLOS98587A8C34C08E3D976A933AFA9BC364F.tmp' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/D/6U/9JCCD34I6XM2K2JY4OLOS9.uasset'
+[2026.10.24-03.33.24:927][463]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/D/6U/CJ1Y02J8IW7XBL8LX1SD35
+[2026.10.24-03.33.24:934][463]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/D/6U/CJ1Y02J8IW7XBL8LX1SD35
+[2026.10.24-03.33.24:935][463]LogSavePackage: Moving '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/CJ1Y02J8IW7XBL8LX1SD35A8FC7E7B42C8EDF8B7D2C2871DA16D2B.tmp' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/D/6U/CJ1Y02J8IW7XBL8LX1SD35.uasset'
+[2026.10.24-03.33.24:936][463]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/D/9S/D8UGSLZVRB3RGQNZTVEN5I
+[2026.10.24-03.33.24:944][463]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/D/9S/D8UGSLZVRB3RGQNZTVEN5I
+[2026.10.24-03.33.24:944][463]LogSavePackage: Moving '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/D8UGSLZVRB3RGQNZTVEN5IF731888E4CDA695E698DC6B02157FD5D.tmp' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/D/9S/D8UGSLZVRB3RGQNZTVEN5I.uasset'
+[2026.10.24-03.33.24:946][463]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/D/GE/2M6DGNGDDXZCFM892YJMZJ
+[2026.10.24-03.33.24:953][463]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/D/GE/2M6DGNGDDXZCFM892YJMZJ
+[2026.10.24-03.33.24:953][463]LogSavePackage: Moving '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/2M6DGNGDDXZCFM892YJMZJAA99AB8B4D7A6565FB8582B550FE2C86.tmp' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/D/GE/2M6DGNGDDXZCFM892YJMZJ.uasset'
+[2026.10.24-03.33.24:954][463]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/D/LA/OT5LBG01LEX07IRRX6C6NJ
+[2026.10.24-03.33.24:961][463]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/D/LA/OT5LBG01LEX07IRRX6C6NJ
+[2026.10.24-03.33.24:961][463]LogSavePackage: Moving '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/OT5LBG01LEX07IRRX6C6NJ0FB7F2BE448037DF1B509598F6940C35.tmp' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/D/LA/OT5LBG01LEX07IRRX6C6NJ.uasset'
+[2026.10.24-03.33.24:963][463]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/D/OE/M520BGAC9FVYSXIYDWJF4Q
+[2026.10.24-03.33.24:970][463]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/D/OE/M520BGAC9FVYSXIYDWJF4Q
+[2026.10.24-03.33.24:972][463]LogSavePackage: Moving '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/M520BGAC9FVYSXIYDWJF4QE57F20284C1B1B0EC1472A938BCE5DCE.tmp' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/D/OE/M520BGAC9FVYSXIYDWJF4Q.uasset'
+[2026.10.24-03.33.24:973][463]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/E/27/7C8UGS0YLZ5596E456JLY9
+[2026.10.24-03.33.24:981][463]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/E/27/7C8UGS0YLZ5596E456JLY9
+[2026.10.24-03.33.24:981][463]LogSavePackage: Moving '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/7C8UGS0YLZ5596E456JLY938AF24F84A527737E60D6B864CE82677.tmp' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/E/27/7C8UGS0YLZ5596E456JLY9.uasset'
+[2026.10.24-03.33.24:983][463]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/E/BY/KUDDDRT188U49G48RQXB3F
+[2026.10.24-03.33.24:990][463]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/E/BY/KUDDDRT188U49G48RQXB3F
+[2026.10.24-03.33.24:991][463]LogSavePackage: Moving '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/KUDDDRT188U49G48RQXB3F378BC08D4F66E79A3EF3E09FF5759D0B.tmp' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/E/BY/KUDDDRT188U49G48RQXB3F.uasset'
+[2026.10.24-03.33.24:993][463]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/E/CI/Z5AW6092AA8T41KNHP5YER
+[2026.10.24-03.33.25:002][463]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/E/CI/Z5AW6092AA8T41KNHP5YER
+[2026.10.24-03.33.25:003][463]LogSavePackage: Moving '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/Z5AW6092AA8T41KNHP5YER716A87E14BCC3338F2549EAC4FCF2BBB.tmp' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/E/CI/Z5AW6092AA8T41KNHP5YER.uasset'
+[2026.10.24-03.33.25:004][463]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/E/E4/QH5ZCIYHWXDC3QSTAO69QJ
+[2026.10.24-03.33.25:015][463]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/E/E4/QH5ZCIYHWXDC3QSTAO69QJ
+[2026.10.24-03.33.25:016][463]LogSavePackage: Moving '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/QH5ZCIYHWXDC3QSTAO69QJ775C02B646655F630357A6909D50250C.tmp' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/E/E4/QH5ZCIYHWXDC3QSTAO69QJ.uasset'
+[2026.10.24-03.33.25:017][463]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/E/RA/1JV96KU0ZQX8JAGZZKGM73
+[2026.10.24-03.33.25:025][463]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/E/RA/1JV96KU0ZQX8JAGZZKGM73
+[2026.10.24-03.33.25:026][463]LogSavePackage: Moving '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/1JV96KU0ZQX8JAGZZKGM73CCE063884D6365835A49E0AA63416D4B.tmp' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/E/RA/1JV96KU0ZQX8JAGZZKGM73.uasset'
+[2026.10.24-03.33.25:027][463]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/E/RE/6KGP400LYZODVW778LKU4D
+[2026.10.24-03.33.25:035][463]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/E/RE/6KGP400LYZODVW778LKU4D
+[2026.10.24-03.33.25:036][463]LogSavePackage: Moving '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/6KGP400LYZODVW778LKU4D2440F0DC4D83354C606091BEA4FBAD60.tmp' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/E/RE/6KGP400LYZODVW778LKU4D.uasset'
+[2026.10.24-03.33.25:037][463]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/F/59/XJYRJATI1T7L55S1ETO7GF
+[2026.10.24-03.33.25:045][463]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/F/59/XJYRJATI1T7L55S1ETO7GF
+[2026.10.24-03.33.25:045][463]LogSavePackage: Moving '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/XJYRJATI1T7L55S1ETO7GFFAC1050E4E55A37465F0969D9DFC96E4.tmp' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/__ExternalActors__/Blueprints/ThirdPerson/Lvl_ThirdPerson/F/59/XJYRJATI1T7L55S1ETO7GF.uasset'
+[2026.10.24-03.33.25:048][463]LogFileHelpers: InternalPromptForCheckoutAndSave took 696.495 ms
+[2026.10.24-03.33.25:202][463]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2026.10.24-03.33.25:202][463]LogContentValidation: Enabled validators:
+[2026.10.24-03.33.25:202][463]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.24-03.33.25:202][463]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.24-03.33.25:202][463]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.24-03.33.25:202][463]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.24-03.33.25:202][463]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.24-03.33.25:202][463]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.24-03.33.25:203][463]LogContentValidation: Display: Starting to validate 1 assets (71 associated objects such as actors)
+[2026.10.24-03.33.25:203][463]LogContentValidation: Additional assets added for validation by 0 validators:
+[2026.10.24-03.33.25:203][463]AssetCheck: /Game/Blueprints/ThirdPerson/Lvl_ThirdPerson Validating asset
+[2026.10.24-03.33.25:203][463]LogContentValidation: Validated asset counts for 1 validators:
+[2026.10.24-03.33.25:203][463]LogContentValidation:   /Script/DataValidation.EditorValidator_Localization : 1
+[2026.10.24-03.33.25:227][463]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/SourceControl/UncontrolledChangelists.json
+[2026.10.24-03.33.27:971][756]LogSlate: Window 'Failed Renames' being destroyed
+[2026.10.24-03.33.29:908][854]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2026.10.24-03.33.29:911][854]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Blueprints/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson
+[2026.10.24-03.33.29:911][854]Cmd: MAP LOAD FILE="../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/Blueprints/ThirdPerson/Lvl_ThirdPerson.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2026.10.24-03.33.29:933][854]LogWorld: UWorld::CleanupWorld for Lvl_ThirdPerson, bSessionEnded=true, bCleanupResources=true
+[2026.10.24-03.33.29:934][854]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.24-03.33.29:934][854]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson
+[2026.10.24-03.33.29:956][854]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.10.24-03.33.29:959][854]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2026.10.24-03.33.29:962][854]LogWorld: UWorld::CleanupWorld for Lvl_ThirdPerson, bSessionEnded=true, bCleanupResources=true
+[2026.10.24-03.33.29:962][854]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.24-03.33.29:962][854]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Blueprints/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson
+[2026.10.24-03.33.29:979][854]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2026.10.24-03.33.30:102][854]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2026.10.24-03.33.30:103][854]LogStreaming: Display: FlushAsyncLoading(475): 1 QueuedPackages, 0 AsyncPackages
+[2026.10.24-03.33.30:109][854]LogAudio: Display: Audio Device (ID: 1) registered with world 'Lvl_ThirdPerson'.
+[2026.10.24-03.33.30:109][854]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_ThirdPerson
+[2026.10.24-03.33.30:110][854]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_ThirdPerson)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2026.10.24-03.33.30:111][854]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.10.24-03.33.30:111][854]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Blueprints/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.10.24-03.33.30:141][854]LogWorldPartition: Display: WorldPartition initialize took 30.042 ms (total: 664.486 ms)
+[2026.10.24-03.33.30:182][854]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2026.10.24-03.33.30:203][854]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2026.10.24-03.33.30:208][854]Cmd: MAP CHECKDEP NOCLEARLOG
+[2026.10.24-03.33.30:208][854]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.762ms to complete.
+[2026.10.24-03.33.30:386][856]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.10.24-03.33.35:025][154]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.10.24-03.33.35:031][154]LogContentBundle: [Lvl_ThirdPerson(Editor)] Generating Streaming for 0 Content Bundles.
+[2026.10.24-03.33.35:031][154]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' started...
+[2026.10.24-03.33.35:032][154]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' took 1.584 ms
+[2026.10.24-03.33.35:036][154]LogCameraSystemEditor: Built 8/8 camera objects in 3 ms
+[2026.10.24-03.33.35:037][154]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.10.24-03.33.35:045][154]LogOnline: OSS: Created online subsystem instance for: NULL
+[2026.10.24-03.33.35:046][154]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for type [NULL]
+[2026.10.24-03.33.35:047][154]LogPlayLevel: Creating play world package: /Game/Blueprints/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson
+[2026.10.24-03.33.35:055][154]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.10.24-03.33.35:056][154]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 1.628 ms
+[2026.10.24-03.33.35:056][154]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009877s)
+[2026.10.24-03.33.35:056][154]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Blueprints/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson to /Game/Blueprints/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson (0.010089s)
+[2026.10.24-03.33.35:074][154]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2026.10.24-03.33.35:079][154]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_ThirdPerson
+[2026.10.24-03.33.35:081][154]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_ThirdPerson)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.10.24-03.33.35:081][154]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.10.24-03.33.35:081][154]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Blueprints/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.10.24-03.33.35:081][154]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.10.24-03.33.35:083][154]LogWorldPartition: Display: WorldPartition initialize took 2.121 ms (total: 666.607 ms)
+[2026.10.24-03.33.35:083][154]LogPlayLevel: PIE: World Init took: (0.004531s)
+[2026.10.24-03.33.35:084][154]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2026.10.24-03.33.35:084][154]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.24-03.33.35:084][154]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.24-03.33.35:084][154]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.24-03.33.35:084][154]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.24-03.33.35:084][154]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.10.24-03.33.35:084][154]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.24-03.33.35:084][154]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.10.24-03.33.35:084][154]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.24-03.33.35:084][154]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.24-03.33.35:084][154]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.24-03.33.35:084][154]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.24-03.33.35:086][154]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.10.24-03.33.35:094][154]LogAudioEnumeration: Display: FWindowsMMDeviceCache: Default Render Role='Console', Device='Speakers (2- Realtek(R) Audio)'
+[2026.10.24-03.33.35:096][154]LogAudioEnumeration: Display: FWindowsMMDeviceCache: Default Capture Role='Console', Device='Headset Microphone (Oculus Virtual Audio Device)'
+[2026.10.24-03.33.35:097][154]LogAudioEnumeration: Display: FWindowsMMDeviceCache: Default Render Role='Multimedia', Device='Speakers (2- Realtek(R) Audio)'
+[2026.10.24-03.33.35:098][154]LogAudioEnumeration: Display: FWindowsMMDeviceCache: Default Capture Role='Multimedia', Device='Headset Microphone (Oculus Virtual Audio Device)'
+[2026.10.24-03.33.35:100][154]LogAudioEnumeration: Display: FWindowsMMDeviceCache: Default Render Role='Communications', Device='Headphones (Oculus Virtual Audio Device)'
+[2026.10.24-03.33.35:101][154]LogAudioEnumeration: Display: FWindowsMMDeviceCache: Default Capture Role='Communications', Device='Headset Microphone (Oculus Virtual Audio Device)'
+[2026.10.24-03.33.35:115][154]LogAudioMixer: Display: Using Audio Hardware Device Speakers (2- Realtek(R) Audio)
+[2026.10.24-03.33.35:115][154]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.24-03.33.35:115][154]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.24-03.33.35:115][154]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.24-03.33.35:116][154]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2026.10.24-03.33.35:116][154]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2026.10.24-03.33.35:120][154]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2026.10.24-03.33.35:120][154]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2026.10.24-03.33.35:120][154]LogInit: FAudioDevice initialized with ID 2.
+[2026.10.24-03.33.35:120][154]LogAudio: Display: Audio Device (ID: 2) registered with world 'Lvl_ThirdPerson'.
+[2026.10.24-03.33.35:120][154]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2026.10.24-03.33.35:125][154]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2026.10.24-03.33.35:129][154]LogWorld: Bringing World /Game/Blueprints/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson up for play (max tick rate 0) at 2026.10.24-10.33.35
+[2026.10.24-03.33.35:130][154]LogWorld: Bringing up level for play took: 0.003417
+[2026.10.24-03.33.35:132][154]LogOnline: OSS: Created online subsystem instance for: :Context_2
+[2026.10.24-03.33.35:164][154]PIE: Server logged in
+[2026.10.24-03.33.35:166][154]PIE: Play in editor total start time 0.137 seconds.
+[2026.10.24-03.33.35:294][155]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.10.24-03.33.36:913][227]LogBlueprintUserMessages: [BPC_HealthComponent] BP_Barrel_C_UAID_10B1DF80B19695FC02_2011588834 Decrae Health : 0
+[2026.10.24-03.33.39:685][361]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.24-03.33.39:686][361]LogWorld: BeginTearingDown for /Game/Blueprints/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson
+[2026.10.24-03.33.39:687][361]LogWorld: UWorld::CleanupWorld for Lvl_ThirdPerson, bSessionEnded=true, bCleanupResources=true
+[2026.10.24-03.33.39:688][361]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.24-03.33.39:688][361]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Blueprints/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson
+[2026.10.24-03.33.39:690][361]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.10.24-03.33.39:694][361]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.24-03.33.39:713][361]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.24-03.33.39:713][361]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2026.10.24-03.33.39:713][361]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2, StreamState=4
+[2026.10.24-03.33.39:715][361]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2, StreamState=2
+[2026.10.24-03.33.39:726][361]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2026.10.24-03.33.39:756][362]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2026.10.24-03.33.43:756][577]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2026.10.24-03.33.45:672][577]LogSlate: Window 'Save Content' being destroyed
+[2026.10.24-03.33.45:687][577]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.24-03.33.45:749][577]LogFileHelpers: Saving Package: /Game/Camera/CA_playerCameras
+[2026.10.24-03.33.45:751][577]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Camera/CA_playerCameras] ([1] browsable assets)...
+[2026.10.24-03.33.45:751][577]OBJ SavePackage: Finished generating thumbnails for package [/Game/Camera/CA_playerCameras]
+[2026.10.24-03.33.45:751][577]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Camera/CA_playerCameras" FILE="../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/Camera/CA_playerCameras.uasset" SILENT=true
+[2026.10.24-03.33.45:761][577]LogSavePackage: Moving output files for package: /Game/Camera/CA_playerCameras
+[2026.10.24-03.33.45:761][577]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/Camera/CA_playerCameras.uasset' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/CA_playerCameras01DA92FE4E85FA820618218ED5CD5B87.tmp' (Error Code 32), retrying in .5s...
+[2026.10.24-03.33.46:262][577]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/Camera/CA_playerCameras.uasset' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/CA_playerCameras01DA92FE4E85FA820618218ED5CD5B87.tmp' (Error Code 32), retrying in .5s...
+[2026.10.24-03.33.46:763][577]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/Camera/CA_playerCameras.uasset' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/CA_playerCameras01DA92FE4E85FA820618218ED5CD5B87.tmp' (Error Code 32), retrying in .5s...
+[2026.10.24-03.33.47:265][577]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/Camera/CA_playerCameras.uasset' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/CA_playerCameras01DA92FE4E85FA820618218ED5CD5B87.tmp' (Error Code 32), retrying in .5s...
+[2026.10.24-03.33.47:766][577]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/Camera/CA_playerCameras.uasset' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/CA_playerCameras01DA92FE4E85FA820618218ED5CD5B87.tmp' (Error Code 32), retrying in .5s...
+[2026.10.24-03.33.48:267][577]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/Camera/CA_playerCameras.uasset' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/CA_playerCameras01DA92FE4E85FA820618218ED5CD5B87.tmp' (Error Code 32), retrying in .5s...
+[2026.10.24-03.33.48:767][577]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/Camera/CA_playerCameras.uasset' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/CA_playerCameras01DA92FE4E85FA820618218ED5CD5B87.tmp' (Error Code 32), retrying in .5s...
+[2026.10.24-03.33.49:268][577]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/Camera/CA_playerCameras.uasset' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/CA_playerCameras01DA92FE4E85FA820618218ED5CD5B87.tmp' (Error Code 32), retrying in .5s...
+[2026.10.24-03.33.49:768][577]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/Camera/CA_playerCameras.uasset' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/CA_playerCameras01DA92FE4E85FA820618218ED5CD5B87.tmp' (Error Code 32), retrying in .5s...
+[2026.10.24-03.33.50:269][577]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/Camera/CA_playerCameras.uasset' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/CA_playerCameras01DA92FE4E85FA820618218ED5CD5B87.tmp' (Error Code 32), retrying in .5s...
+[2026.10.24-03.33.50:771][577]LogFileManager: Error: Error moving file '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/Camera/CA_playerCameras.uasset' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/CA_playerCameras01DA92FE4E85FA820618218ED5CD5B87.tmp'.
+[2026.10.24-03.33.50:771][577]LogSavePackage: Warning: Failed to move '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/Camera/CA_playerCameras.uasset' to temp directory
+[2026.10.24-03.33.50:771][577]LogSavePackage: Error: Error saving '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/Camera/CA_playerCameras.uasset'
+[2026.10.24-03.34.05:859][577]LogSlate: Window 'Message' being destroyed
+[2026.10.24-03.34.05:867][577]Message dialog closed, result: Retry, title: Message, text: The asset '/Game/Camera/CA_playerCameras' (CA_playerCameras.uasset) failed to save.
+
+Cancel: Stop saving all assets and return to the editor.
+Retry: Attempt to save the asset again.
+Continue: Skip saving this asset only.
+[2026.10.24-03.34.05:867][577]LogFileHelpers: Saving Package: /Game/Camera/CA_playerCameras
+[2026.10.24-03.34.05:868][577]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Camera/CA_playerCameras] ([1] browsable assets)...
+[2026.10.24-03.34.05:868][577]OBJ SavePackage: Finished generating thumbnails for package [/Game/Camera/CA_playerCameras]
+[2026.10.24-03.34.05:868][577]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Camera/CA_playerCameras" FILE="../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/Camera/CA_playerCameras.uasset" SILENT=true
+[2026.10.24-03.34.05:884][577]LogSavePackage: Moving output files for package: /Game/Camera/CA_playerCameras
+[2026.10.24-03.34.05:885][577]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/Camera/CA_playerCameras.uasset' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/CA_playerCameras1256FCDF4D9647F2CA73BA98BE340405.tmp' (Error Code 32), retrying in .5s...
+[2026.10.24-03.34.06:387][577]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/Camera/CA_playerCameras.uasset' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/CA_playerCameras1256FCDF4D9647F2CA73BA98BE340405.tmp' (Error Code 32), retrying in .5s...
+[2026.10.24-03.34.06:889][577]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/Camera/CA_playerCameras.uasset' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/CA_playerCameras1256FCDF4D9647F2CA73BA98BE340405.tmp' (Error Code 32), retrying in .5s...
+[2026.10.24-03.34.07:392][577]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/Camera/CA_playerCameras.uasset' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/CA_playerCameras1256FCDF4D9647F2CA73BA98BE340405.tmp' (Error Code 32), retrying in .5s...
+[2026.10.24-03.34.07:893][577]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/Camera/CA_playerCameras.uasset' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/CA_playerCameras1256FCDF4D9647F2CA73BA98BE340405.tmp' (Error Code 32), retrying in .5s...
+[2026.10.24-03.34.08:394][577]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/Camera/CA_playerCameras.uasset' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/CA_playerCameras1256FCDF4D9647F2CA73BA98BE340405.tmp' (Error Code 32), retrying in .5s...
+[2026.10.24-03.34.08:896][577]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/Camera/CA_playerCameras.uasset' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/CA_playerCameras1256FCDF4D9647F2CA73BA98BE340405.tmp' (Error Code 32), retrying in .5s...
+[2026.10.24-03.34.09:398][577]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/Camera/CA_playerCameras.uasset' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/CA_playerCameras1256FCDF4D9647F2CA73BA98BE340405.tmp' (Error Code 32), retrying in .5s...
+[2026.10.24-03.34.09:898][577]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/Camera/CA_playerCameras.uasset' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/CA_playerCameras1256FCDF4D9647F2CA73BA98BE340405.tmp' (Error Code 32), retrying in .5s...
+[2026.10.24-03.34.10:400][577]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/Camera/CA_playerCameras.uasset' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/CA_playerCameras1256FCDF4D9647F2CA73BA98BE340405.tmp' (Error Code 32), retrying in .5s...
+[2026.10.24-03.34.10:901][577]LogFileManager: Error: Error moving file '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/Camera/CA_playerCameras.uasset' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/CA_playerCameras1256FCDF4D9647F2CA73BA98BE340405.tmp'.
+[2026.10.24-03.34.10:901][577]LogSavePackage: Warning: Failed to move '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/Camera/CA_playerCameras.uasset' to temp directory
+[2026.10.24-03.34.10:901][577]LogSavePackage: Error: Error saving '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/Camera/CA_playerCameras.uasset'
+[2026.10.24-03.34.17:571][577]LogSlate: Window 'Message' being destroyed
+[2026.10.24-03.34.17:578][577]Message dialog closed, result: Continue, title: Message, text: The asset '/Game/Camera/CA_playerCameras' (CA_playerCameras.uasset) failed to save.
+
+Cancel: Stop saving all assets and return to the editor.
+Retry: Attempt to save the asset again.
+Continue: Skip saving this asset only.
+[2026.10.24-03.34.17:581][577]LogFileHelpers: Saving Package: /Game/Camera/CR_FirstPerson
+[2026.10.24-03.34.17:581][577]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Camera/CR_FirstPerson] ([1] browsable assets)...
+[2026.10.24-03.34.17:583][577]OBJ SavePackage: Finished generating thumbnails for package [/Game/Camera/CR_FirstPerson]
+[2026.10.24-03.34.17:583][577]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Camera/CR_FirstPerson" FILE="../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/Camera/CR_FirstPerson.uasset" SILENT=true
+[2026.10.24-03.34.17:602][577]LogSavePackage: Moving output files for package: /Game/Camera/CR_FirstPerson
+[2026.10.24-03.34.17:602][577]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/Camera/CR_FirstPerson.uasset' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/CR_FirstPersonEC030132411BE88C41FF7EA82C41765F.tmp' (Error Code 32), retrying in .5s...
+[2026.10.24-03.34.18:103][577]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/Camera/CR_FirstPerson.uasset' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/CR_FirstPersonEC030132411BE88C41FF7EA82C41765F.tmp' (Error Code 32), retrying in .5s...
+[2026.10.24-03.34.18:604][577]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/Camera/CR_FirstPerson.uasset' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/CR_FirstPersonEC030132411BE88C41FF7EA82C41765F.tmp' (Error Code 32), retrying in .5s...
+[2026.10.24-03.34.19:105][577]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/Camera/CR_FirstPerson.uasset' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/CR_FirstPersonEC030132411BE88C41FF7EA82C41765F.tmp' (Error Code 32), retrying in .5s...
+[2026.10.24-03.34.19:606][577]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/Camera/CR_FirstPerson.uasset' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/CR_FirstPersonEC030132411BE88C41FF7EA82C41765F.tmp' (Error Code 32), retrying in .5s...
+[2026.10.24-03.34.20:106][577]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/Camera/CR_FirstPerson.uasset' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/CR_FirstPersonEC030132411BE88C41FF7EA82C41765F.tmp' (Error Code 32), retrying in .5s...
+[2026.10.24-03.34.20:609][577]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/Camera/CR_FirstPerson.uasset' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/CR_FirstPersonEC030132411BE88C41FF7EA82C41765F.tmp' (Error Code 32), retrying in .5s...
+[2026.10.24-03.34.21:110][577]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/Camera/CR_FirstPerson.uasset' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/CR_FirstPersonEC030132411BE88C41FF7EA82C41765F.tmp' (Error Code 32), retrying in .5s...
+[2026.10.24-03.34.21:611][577]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/Camera/CR_FirstPerson.uasset' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/CR_FirstPersonEC030132411BE88C41FF7EA82C41765F.tmp' (Error Code 32), retrying in .5s...
+[2026.10.24-03.34.22:112][577]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/Camera/CR_FirstPerson.uasset' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/CR_FirstPersonEC030132411BE88C41FF7EA82C41765F.tmp' (Error Code 32), retrying in .5s...
+[2026.10.24-03.34.22:612][577]LogFileManager: Error: Error moving file '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/Camera/CR_FirstPerson.uasset' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/CR_FirstPersonEC030132411BE88C41FF7EA82C41765F.tmp'.
+[2026.10.24-03.34.22:612][577]LogSavePackage: Warning: Failed to move '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/Camera/CR_FirstPerson.uasset' to temp directory
+[2026.10.24-03.34.22:612][577]LogSavePackage: Error: Error saving '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/Camera/CR_FirstPerson.uasset'
+[2026.10.24-03.34.26:007][577]LogSlate: Window 'Message' being destroyed
+[2026.10.24-03.34.26:030][577]Message dialog closed, result: Cancel, title: Message, text: The asset '/Game/Camera/CR_FirstPerson' (CR_FirstPerson.uasset) failed to save.
+
+Cancel: Stop saving all assets and return to the editor.
+Retry: Attempt to save the asset again.
+Continue: Skip saving this asset only.
+[2026.10.24-03.34.26:136][577]LogFileHelpers: InternalPromptForCheckoutAndSave took 40.4 sec (total: 41.1 sec)
+[2026.10.24-03.34.27:474][577]LogSlate: Window 'Packages Failed To Save' being destroyed
+[2026.10.24-03.34.27:487][577]Message dialog closed, result: Ok, title: Packages Failed To Save, text: The following assets failed to save correctly:
+/Game/Camera/CA_playerCameras
+[2026.10.24-03.34.27:487][577]EditorErrors: /Game/Camera/CA_playerCameras 1 warning saving asset.
+[2026.10.24-03.34.27:487][577]EditorErrors: Warning: Error saving '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/Camera/CA_playerCameras.uasset'
+[2026.10.24-03.34.27:487][577]EditorErrors: /Game/Camera/CA_playerCameras 1 warning saving asset.
+[2026.10.24-03.34.27:487][577]EditorErrors: Warning: Error saving '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/Camera/CA_playerCameras.uasset'
+[2026.10.24-03.34.27:487][577]EditorErrors: /Game/Camera/CR_FirstPerson 1 warning saving asset.
+[2026.10.24-03.34.27:487][577]EditorErrors: Warning: Error saving '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/Camera/CR_FirstPerson.uasset'
+[2026.10.24-03.34.30:342][717]LogSlate: Window 'Message Log' being destroyed
+[2026.10.24-03.34.30:389][717]LogSlate: Window 'Message Log' being destroyed
+[2026.10.24-03.34.31:310][780]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2026.10.24-03.34.32:242][780]LogSlate: Window 'Save Content' being destroyed
+[2026.10.24-03.34.32:282][780]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.24-03.34.32:335][780]LogFileHelpers: Saving Package: /Game/Camera/CA_playerCameras
+[2026.10.24-03.34.32:335][780]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Camera/CA_playerCameras] ([1] browsable assets)...
+[2026.10.24-03.34.32:335][780]OBJ SavePackage: Finished generating thumbnails for package [/Game/Camera/CA_playerCameras]
+[2026.10.24-03.34.32:335][780]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Camera/CA_playerCameras" FILE="../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/Camera/CA_playerCameras.uasset" SILENT=true
+[2026.10.24-03.34.32:345][780]LogSavePackage: Moving output files for package: /Game/Camera/CA_playerCameras
+[2026.10.24-03.34.32:345][780]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/Camera/CA_playerCameras.uasset' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/CA_playerCameras7F073DFC49A6660C352B8D8094CC2F98.tmp' (Error Code 32), retrying in .5s...
+[2026.10.24-03.34.32:847][780]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/Camera/CA_playerCameras.uasset' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/CA_playerCameras7F073DFC49A6660C352B8D8094CC2F98.tmp' (Error Code 32), retrying in .5s...
+[2026.10.24-03.34.33:347][780]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/Camera/CA_playerCameras.uasset' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/CA_playerCameras7F073DFC49A6660C352B8D8094CC2F98.tmp' (Error Code 32), retrying in .5s...
+[2026.10.24-03.34.33:850][780]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/Camera/CA_playerCameras.uasset' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/CA_playerCameras7F073DFC49A6660C352B8D8094CC2F98.tmp' (Error Code 32), retrying in .5s...
+[2026.10.24-03.34.34:352][780]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/Camera/CA_playerCameras.uasset' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/CA_playerCameras7F073DFC49A6660C352B8D8094CC2F98.tmp' (Error Code 32), retrying in .5s...
+[2026.10.24-03.34.34:853][780]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/Camera/CA_playerCameras.uasset' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/CA_playerCameras7F073DFC49A6660C352B8D8094CC2F98.tmp' (Error Code 32), retrying in .5s...
+[2026.10.24-03.34.35:353][780]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/Camera/CA_playerCameras.uasset' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/CA_playerCameras7F073DFC49A6660C352B8D8094CC2F98.tmp' (Error Code 32), retrying in .5s...
+[2026.10.24-03.34.35:855][780]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/Camera/CA_playerCameras.uasset' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/CA_playerCameras7F073DFC49A6660C352B8D8094CC2F98.tmp' (Error Code 32), retrying in .5s...
+[2026.10.24-03.34.36:356][780]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/Camera/CA_playerCameras.uasset' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/CA_playerCameras7F073DFC49A6660C352B8D8094CC2F98.tmp' (Error Code 32), retrying in .5s...
+[2026.10.24-03.34.36:857][780]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/Camera/CA_playerCameras.uasset' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/CA_playerCameras7F073DFC49A6660C352B8D8094CC2F98.tmp' (Error Code 32), retrying in .5s...
+[2026.10.24-03.34.37:357][780]LogFileManager: Error: Error moving file '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/Camera/CA_playerCameras.uasset' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/CA_playerCameras7F073DFC49A6660C352B8D8094CC2F98.tmp'.
+[2026.10.24-03.34.37:357][780]LogSavePackage: Warning: Failed to move '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/Camera/CA_playerCameras.uasset' to temp directory
+[2026.10.24-03.34.37:357][780]LogSavePackage: Error: Error saving '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/Camera/CA_playerCameras.uasset'
+[2026.10.24-03.34.43:365][780]LogSlate: Window 'Message' being destroyed
+[2026.10.24-03.34.43:371][780]Message dialog closed, result: Continue, title: Message, text: The asset '/Game/Camera/CA_playerCameras' (CA_playerCameras.uasset) failed to save.
+
+Cancel: Stop saving all assets and return to the editor.
+Retry: Attempt to save the asset again.
+Continue: Skip saving this asset only.
+[2026.10.24-03.34.43:372][780]LogFileHelpers: Saving Package: /Game/Camera/CR_FirstPerson
+[2026.10.24-03.34.43:372][780]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Camera/CR_FirstPerson] ([1] browsable assets)...
+[2026.10.24-03.34.43:372][780]OBJ SavePackage: Finished generating thumbnails for package [/Game/Camera/CR_FirstPerson]
+[2026.10.24-03.34.43:372][780]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Camera/CR_FirstPerson" FILE="../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/Camera/CR_FirstPerson.uasset" SILENT=true
+[2026.10.24-03.34.43:375][780]LogSavePackage: Moving output files for package: /Game/Camera/CR_FirstPerson
+[2026.10.24-03.34.43:375][780]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/Camera/CR_FirstPerson.uasset' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/CR_FirstPersonC20E3D6D4F5A6DF860E0B1B2CBC19D67.tmp' (Error Code 32), retrying in .5s...
+[2026.10.24-03.34.43:877][780]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/Camera/CR_FirstPerson.uasset' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/CR_FirstPersonC20E3D6D4F5A6DF860E0B1B2CBC19D67.tmp' (Error Code 32), retrying in .5s...
+[2026.10.24-03.34.44:377][780]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/Camera/CR_FirstPerson.uasset' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/CR_FirstPersonC20E3D6D4F5A6DF860E0B1B2CBC19D67.tmp' (Error Code 32), retrying in .5s...
+[2026.10.24-03.34.44:877][780]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/Camera/CR_FirstPerson.uasset' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/CR_FirstPersonC20E3D6D4F5A6DF860E0B1B2CBC19D67.tmp' (Error Code 32), retrying in .5s...
+[2026.10.24-03.34.45:379][780]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/Camera/CR_FirstPerson.uasset' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/CR_FirstPersonC20E3D6D4F5A6DF860E0B1B2CBC19D67.tmp' (Error Code 32), retrying in .5s...
+[2026.10.24-03.34.45:879][780]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/Camera/CR_FirstPerson.uasset' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/CR_FirstPersonC20E3D6D4F5A6DF860E0B1B2CBC19D67.tmp' (Error Code 32), retrying in .5s...
+[2026.10.24-03.34.46:380][780]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/Camera/CR_FirstPerson.uasset' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/CR_FirstPersonC20E3D6D4F5A6DF860E0B1B2CBC19D67.tmp' (Error Code 32), retrying in .5s...
+[2026.10.24-03.34.46:881][780]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/Camera/CR_FirstPerson.uasset' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/CR_FirstPersonC20E3D6D4F5A6DF860E0B1B2CBC19D67.tmp' (Error Code 32), retrying in .5s...
+[2026.10.24-03.34.47:382][780]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/Camera/CR_FirstPerson.uasset' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/CR_FirstPersonC20E3D6D4F5A6DF860E0B1B2CBC19D67.tmp' (Error Code 32), retrying in .5s...
+[2026.10.24-03.34.47:883][780]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/Camera/CR_FirstPerson.uasset' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/CR_FirstPersonC20E3D6D4F5A6DF860E0B1B2CBC19D67.tmp' (Error Code 32), retrying in .5s...
+[2026.10.24-03.34.48:383][780]LogFileManager: Error: Error moving file '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/Camera/CR_FirstPerson.uasset' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/CR_FirstPersonC20E3D6D4F5A6DF860E0B1B2CBC19D67.tmp'.
+[2026.10.24-03.34.48:383][780]LogSavePackage: Warning: Failed to move '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/Camera/CR_FirstPerson.uasset' to temp directory
+[2026.10.24-03.34.48:383][780]LogSavePackage: Error: Error saving '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/Camera/CR_FirstPerson.uasset'
+[2026.10.24-03.35.00:601][780]LogSlate: Window 'Message' being destroyed
+[2026.10.24-03.35.00:607][780]Message dialog closed, result: Cancel, title: Message, text: The asset '/Game/Camera/CR_FirstPerson' (CR_FirstPerson.uasset) failed to save.
+
+Cancel: Stop saving all assets and return to the editor.
+Retry: Attempt to save the asset again.
+Continue: Skip saving this asset only.
+[2026.10.24-03.35.00:612][780]LogFileHelpers: InternalPromptForCheckoutAndSave took 28.3 sec (total: 1:09 min)
+[2026.10.24-03.35.02:007][780]LogSlate: Window 'Packages Failed To Save' being destroyed
+[2026.10.24-03.35.02:014][780]Message dialog closed, result: Ok, title: Packages Failed To Save, text: The following assets failed to save correctly:
+/Game/Camera/CA_playerCameras
+[2026.10.24-03.35.02:014][780]EditorErrors: /Game/Camera/CA_playerCameras 1 warning saving asset.
+[2026.10.24-03.35.02:014][780]EditorErrors: Warning: Error saving '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/Camera/CA_playerCameras.uasset'
+[2026.10.24-03.35.02:014][780]EditorErrors: /Game/Camera/CR_FirstPerson 1 warning saving asset.
+[2026.10.24-03.35.02:014][780]EditorErrors: Warning: Error saving '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/Camera/CR_FirstPerson.uasset'
+[2026.10.24-03.35.03:648][854]LogSlate: Window 'Message Log' being destroyed
+[2026.10.24-03.35.03:703][854]LogSlate: Window 'Message Log' being destroyed
+[2026.10.24-03.35.13:020][118]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2026.10.24-03.35.16:548][118]LogSlate: Window 'Save Content' being destroyed
+[2026.10.24-03.35.16:563][118]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.24-03.35.16:604][118]LogFileHelpers: Saving Package: /Game/Camera/CA_playerCameras
+[2026.10.24-03.35.16:604][118]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Camera/CA_playerCameras] ([1] browsable assets)...
+[2026.10.24-03.35.16:604][118]OBJ SavePackage: Finished generating thumbnails for package [/Game/Camera/CA_playerCameras]
+[2026.10.24-03.35.16:604][118]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Camera/CA_playerCameras" FILE="../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/Camera/CA_playerCameras.uasset" SILENT=true
+[2026.10.24-03.35.16:615][118]LogSavePackage: Moving output files for package: /Game/Camera/CA_playerCameras
+[2026.10.24-03.35.16:615][118]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/Camera/CA_playerCameras.uasset' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/CA_playerCameras9E38281F4C3A3B10F80E24AD811EC9EA.tmp' (Error Code 32), retrying in .5s...
+[2026.10.24-03.35.17:117][118]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/Camera/CA_playerCameras.uasset' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/CA_playerCameras9E38281F4C3A3B10F80E24AD811EC9EA.tmp' (Error Code 32), retrying in .5s...
+[2026.10.24-03.35.17:619][118]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/Camera/CA_playerCameras.uasset' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/CA_playerCameras9E38281F4C3A3B10F80E24AD811EC9EA.tmp' (Error Code 32), retrying in .5s...
+[2026.10.24-03.35.18:120][118]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/Camera/CA_playerCameras.uasset' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/CA_playerCameras9E38281F4C3A3B10F80E24AD811EC9EA.tmp' (Error Code 32), retrying in .5s...
+[2026.10.24-03.35.18:620][118]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/Camera/CA_playerCameras.uasset' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/CA_playerCameras9E38281F4C3A3B10F80E24AD811EC9EA.tmp' (Error Code 32), retrying in .5s...
+[2026.10.24-03.35.19:121][118]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/Camera/CA_playerCameras.uasset' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/CA_playerCameras9E38281F4C3A3B10F80E24AD811EC9EA.tmp' (Error Code 32), retrying in .5s...
+[2026.10.24-03.35.19:621][118]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/Camera/CA_playerCameras.uasset' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/CA_playerCameras9E38281F4C3A3B10F80E24AD811EC9EA.tmp' (Error Code 32), retrying in .5s...
+[2026.10.24-03.35.20:124][118]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/Camera/CA_playerCameras.uasset' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/CA_playerCameras9E38281F4C3A3B10F80E24AD811EC9EA.tmp' (Error Code 32), retrying in .5s...
+[2026.10.24-03.35.20:627][118]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/Camera/CA_playerCameras.uasset' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/CA_playerCameras9E38281F4C3A3B10F80E24AD811EC9EA.tmp' (Error Code 32), retrying in .5s...
+[2026.10.24-03.35.21:127][118]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/Camera/CA_playerCameras.uasset' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/CA_playerCameras9E38281F4C3A3B10F80E24AD811EC9EA.tmp' (Error Code 32), retrying in .5s...
+[2026.10.24-03.35.21:628][118]LogFileManager: Error: Error moving file '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/Camera/CA_playerCameras.uasset' to '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Saved/CA_playerCameras9E38281F4C3A3B10F80E24AD811EC9EA.tmp'.
+[2026.10.24-03.35.21:628][118]LogSavePackage: Warning: Failed to move '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/Camera/CA_playerCameras.uasset' to temp directory
+[2026.10.24-03.35.21:628][118]LogSavePackage: Error: Error saving '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/Camera/CA_playerCameras.uasset'
+[2026.10.24-03.35.25:805][118]LogSlate: Window 'Message' being destroyed
+[2026.10.24-03.35.25:810][118]Message dialog closed, result: Cancel, title: Message, text: The asset '/Game/Camera/CA_playerCameras' (CA_playerCameras.uasset) failed to save.
+
+Cancel: Stop saving all assets and return to the editor.
+Retry: Attempt to save the asset again.
+Continue: Skip saving this asset only.
+[2026.10.24-03.35.25:816][118]LogFileHelpers: InternalPromptForCheckoutAndSave took 9.25 sec (total: 1:18 min)
+[2026.10.24-03.35.25:816][118]EditorErrors: /Game/Camera/CA_playerCameras 1 warning saving asset.
+[2026.10.24-03.35.25:817][118]EditorErrors: Warning: Error saving '../../../../../../Users/r11-1101/Documents/GitHub/Homework_GameplayCamera/Content/Camera/CA_playerCameras.uasset'
+[2026.10.24-03.35.27:943][231]LogSlate: Window 'Message Log' being destroyed
+[2026.10.24-03.35.27:975][231]LogSlate: Window 'Message Log' being destroyed
+[2026.10.24-03.35.31:334][335]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2026.10.24-03.35.33:375][335]LogSlate: Window 'Save Content' being destroyed
+[2026.10.24-03.35.33:414][335]LogStall: Shutdown...
+[2026.10.24-03.35.33:420][335]LogStall: Shutdown complete.
+[2026.10.24-03.35.33:438][335]LogSlate: Window 'HomeworkGameCamera - Unreal Editor' being destroyed
+[2026.10.24-03.35.33:510][335]Cmd: QUIT_EDITOR
+[2026.10.24-03.35.33:510][336]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2026.10.24-03.35.33:514][336]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2026.10.24-03.35.33:516][336]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2026.10.24-03.35.33:516][336]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2026.10.24-03.35.33:517][336]LogWorld: UWorld::CleanupWorld for Lvl_ThirdPerson, bSessionEnded=true, bCleanupResources=true
+[2026.10.24-03.35.33:517][336]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.24-03.35.33:517][336]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Blueprints/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson
+[2026.10.24-03.35.33:522][336]LogTedsSettings: UTedsSettingsEditorSubsystem::Deinitialize
+[2026.10.24-03.35.33:523][336]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2026.10.24-03.35.33:527][336]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2026.10.24-03.35.33:527][336]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.24-03.35.33:527][336]LogRuntimeTelemetry: Recording EnginePreExit events
+[2026.10.24-03.35.33:529][336]LogAnalytics: Display: [UEEditor.Rocket.Release] AnalyticsET::EndSession
+[2026.10.24-03.35.34:029][336]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2026.10.24-03.35.34:029][336]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2026.10.24-03.35.34:029][336]LogAudio: Display: Audio Device unregistered from world 'Lvl_ThirdPerson'.
+[2026.10.24-03.35.34:029][336]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2026.10.24-03.35.34:029][336]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1, StreamState=4
+[2026.10.24-03.35.34:032][336]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1, StreamState=2
+[2026.10.24-03.35.34:044][336]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2026.10.24-03.35.34:044][336]LogAudio: Display: Audio Device Manager Shutdown
+[2026.10.24-03.35.34:055][336]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2026.10.24-03.35.34:055][336]LogExit: Preparing to exit.
+[2026.10.24-03.35.34:128][336]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2026.10.24-03.35.34:522][336]LogEditorDataStorage: Deinitializing
+[2026.10.24-03.35.34:640][336]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2026.10.24-03.35.34:655][336]LogExit: Editor shut down
+[2026.10.24-03.35.34:660][336]LogExit: Transaction tracking system shut down
+[2026.10.24-03.35.34:835][336]LogExit: Object subsystem successfully closed.
+[2026.10.24-03.35.34:873][336]LogShaderCompilers: Display: Shaders left to compile 0
+[2026.10.24-03.35.35:289][336]LogMemoryProfiler: Shutdown
+[2026.10.24-03.35.35:289][336]LogNetworkingProfiler: Shutdown
+[2026.10.24-03.35.35:289][336]LoadingProfiler: Shutdown
+[2026.10.24-03.35.35:289][336]LogTimingProfiler: Shutdown
+[2026.10.24-03.35.35:289][336]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDGenericDebugDrawExtension] ...
+[2026.10.24-03.35.35:289][336]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDAccelerationStructuresExtension] ...
+[2026.10.24-03.35.35:507][336]LogWebBrowser: Deleting browser for Url=https://editor.unrealengine.com/get-started-with-unreal-engine.
+[2026.10.24-03.35.35:680][336]LogChaosDD: Chaos Debug Draw Shutdown
+[2026.10.24-03.35.35:688][336]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2026.10.24-03.35.35:688][336]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD0F5DB19-4A65-F7AC-3C59-94A69B66B4B0%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.7.4-51494982%2B%2B%2BUE5%2BRelease-5.7&UserID=d57defbc48e443a72d9dd68ac63343ac%7C4e984db095404ef5972f10b7ea696319%7Cea1c8d3d-a459-4ab7-8b11-109408a4232b&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[2] status=Processing
+[2026.10.24-03.35.36:227][336]LogEOSShared: FEOSSDKManager::Shutdown EOS_Shutdown Result=[EOS_Success]
+[2026.10.24-03.35.36:227][336]LogNFORDenoise: NFORDenoise function shutting down
+[2026.10.24-03.35.36:234][336]RenderDocPlugin: plugin has been unloaded.
+[2026.10.24-03.35.36:246][336]LogPakFile: Destroying PakPlatformFile
+[2026.10.24-03.35.36:821][336]LogD3D12RHI: ~FD3D12DynamicRHI
+[2026.10.24-03.35.36:877][336]LogExit: Exiting.
+[2026.10.24-03.35.36:906][336]Log file closed, 10/24/26 10:35:36
